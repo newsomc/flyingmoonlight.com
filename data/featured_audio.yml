@@ -1,0 +1,29 @@
+bandcamp_embeds:
+  - artist:
+      - name: 'George Sand'
+      - tracks:
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1231848906/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=532657875/transparent=true/" seamless><a href="http://georgesand.bandcamp.com/album/pierre">&quot;PIERRE&quot; by GEORGE SAND</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1231848906/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=856327711/transparent=true/" seamless><a href="http://georgesand.bandcamp.com/album/pierre">&quot;PIERRE&quot; by GEORGE SAND</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1231848906/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1736600701/transparent=true/" seamless><a href="http://georgesand.bandcamp.com/album/pierre">&quot;PIERRE&quot; by GEORGE SAND</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1231848906/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3186961319/transparent=true/" seamless><a href="http://georgesand.bandcamp.com/album/pierre">&quot;PIERRE&quot; by GEORGE SAND</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1231848906/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3427114842/transparent=true/" seamless><a href="http://georgesand.bandcamp.com/album/pierre">&quot;PIERRE&quot; by GEORGE SAND</a></iframe>'
+  - artist:
+      - name: 'Hairy Sands'
+      - tracks:
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4144564129/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3772234585/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/tears">Tears by Hairy Sands</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4144564129/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3727565182/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/tears">Tears by Hairy Sands</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=4144564129/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=58605401/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/tears">Tears by Hairy Sands</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1982479439/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1333980244/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/sandy-hairs">Sandy Hairs by Hairy Sands</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1982479439/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1275633442/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/sandy-hairs">Sandy Hairs by Hairy Sands</a></ifrxoame>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1982479439/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1275633442/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/sandy-hairs">Sandy Hairs by Hairy Sands</a></iframe>'
+  - artist:
+      - name: 'Hello Lovers / AAware'
+      - tracks:
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2964909979/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3107023936/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/glorified-3">Glorified by hello lovers</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2964909979/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3658801768/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/glorified-3">Glorified by hello lovers</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3664989162/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/vanity-fair">vanity fair by hello lovers</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2038970165/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=169513173/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/gone-with-the-wind">gone with the wind by hello lovers</a></iframe>'
+  - artist:
+      - name: 'VietNam'
+      - tracks:
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=986957178/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://vietnamtheband.bandcamp.com/track/mama-loi-papa-loi">Mama Loi, Papa Loi by VietNam</a></iframe>'

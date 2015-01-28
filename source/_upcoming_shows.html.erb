@@ -1,0 +1,9 @@
+<ul class="list-group list-unstyled right-bar-shows">
+    <% data.shows.upcoming_events.each do |show| %>
+    <li>
+        <div class="show-date-location"><u><%= show.date %></u></div>
+        <div><%= show.artists %></div>
+        <div><%= show.location %></div>
+    </li>
+    <% end %>
+</ul>

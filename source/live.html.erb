@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <h1> Upcoming</h2>
+        <%= partial "upcoming_shows" %>
+        <hr>
+        <h1> Past </h1>
+        <ul class="list-group list-unstyled right-bar-shows">
+            <% data.shows.past_events.each do |entry| %>
+              <ul class="list-group list-unstyled right-bar-audio">
+                <% entry.artist.each do |a| %>
+                  <h2><%= a.name %></h2>
+                  <% a.shows.to_a.each do |s| %>
+                    <li>
+                      <% s.show.to_a.each do |detail| %>
+                        <div class="show-date-location"><u> <%= detail.date %> </u></div>
+                        <div> <%= detail.support %></div>
+                        <div> <%= detail.location %></div>
+                      <% end %>
+                    </li>
+                  <% end %>
+                <% end %>    
+              </ul>
+            <% end %>
+        </ul>
+    </div>
+</div>

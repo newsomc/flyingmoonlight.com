@@ -1,0 +1,193 @@
+upcoming_events:
+  - date: Tuesday, Jan 13 
+  - artists: Hairy Sands (Record Release) with People, George Sand, AAware
+  - location: "@ Trans Pecos"
+
+  - date: Friday, Feb 6
+  - artists: George Sand (Record Release) with Reg Bloor (Glenn Branca Ensemble), Greasy Grass (Pure Horsehair), and Rachel Trachtenburg
+  - location: "@ Bohemian Grove"
+
+past_events:
+  - artist:
+      - name: "George Sand & Hairy Sands <br/> European Tour 2014"
+      - shows:
+          - show:
+              - date: Tuesday Oct 21 
+              - support: with Rose Mercie
+              - location: "@ Le Rallye - Paris, France"
+          - show:
+              - date: Thursday Oct 23 
+              - support: with Steeve Lemercier
+              - location: "@ Loophole - Berlin, Germany"
+          - show:
+              - date: Friday Oct 24 
+              - location: "@ Madame Claude - Berlin, Germany"
+          - show:
+              - date: Sunday Oct 2
+              - support: with The Neighbors
+              - location: "@ Lez'arts Cafe - Valence, France"
+          - show:
+              - date: Monday Oct 27
+              - location: "@ Bar la Goleta - Sant Feliu Du Guixols, Spain"
+          - show:
+              - date: Tuesday Oct 28
+              - location: "@ Cafe Lizzard - Figueres, Spain"
+          - show:
+              - date: Wednesday Oct 29
+              - location: "@ Miscelanea Bcn - Barcelona, Spain"
+          - show:
+              - date: Thursday Oct 30
+              - location: "@ Las Armas - Zaragoza, Spain"
+          - show:
+              - date: Friday Oct 31
+              - location: "@ Atelier de la Llana - Madrid, Spain"
+          - show:
+              - date: Saturday Nov 1
+              - location: "@ Bar Labranza - Galicia, Spain"
+          - show:
+              - date: Sunday Nov 2
+              - location: "@ Toma 3 Gijon - Gijon, Spain"
+          - show:
+              - date: Monday Nov 3
+              - location: "@ CeltiCPuB IsNoTaPuB - Tarbes, France"
+                
+      - name: "George Sand"
+      - shows:
+          - show:
+            - date: Thursday Dec 4, 2014
+            - support: with Adam Evald, Iola
+            - location: "@ Cakeshop - Manhattan, NY"
+          - show:
+            - date: Monday Jul 21, 2014
+            - support: with Heroes of Toolik, Slack Bow, Reg Bloor
+            - location: "@ Silent Barn - Brooklyn, NY"
+          - show:
+            - date: Monday Jul 14, 2014
+            - support: with Prophet Driven, The Collected Works of Lenin, Gouache 
+            - location: "@ Cakeshop - Manhattan, NY"
+          - show:
+            - date: Monday Jun 16, 2014
+            - support: with Pure Horsehair, Lisa/Liza, Luscious Skin
+            - location: "@ The Drink - Brooklyn, NY"
+          - show:
+            - date: Wednesday Jun 11, 2014
+            - support: with Body Electric, Senators, Perfect Teeth
+            - location: "@ Trash Bar - Brooklyn, NY"
+          - show:
+            - date: Friday Apr 14, 2014
+            - support: with Iola, Virginia Plain, Luscious Skin, Faten Kanaan
+            - location: "@ Coco 66 - Brooklyn, NY"
+          - show:
+            - date: Wednesday Mar 19, 2014
+            - support: with Opal Onyx, Eartheater, Christine Hoberg
+            - location: "@ The Drink - Brooklyn, NY"
+          - show:
+            - date: Monday Dec 16, 2013
+            - location: "@ Kindl Stuben - Berlin, Germany"
+          - show:
+            - date: Saturday Dec 14, 2013
+            - support: with Steev Lemercier, Mista Brazil, Jeff Ozdemir
+            - location: "@ Little Stage - Berlin, Germany"
+          - show:
+            - date: Saturday Sept 1, 2013
+            - support: with The Early Stages, Moonsicles
+            - location: "@ The Sahara - Austin, TX"
+          - show:
+            - date: Monday Aug 26, 2013
+            - support: with Christy & Emily, Iola, Hello Lovers
+            - location: "@ Cameo Gallery - Brooklyn, NY"
+          - show:
+            - date: Tuesday Jul 2, 2013
+            - support: "with Iola, Mare Crane's Brunt Song"
+            - location: "@ Cakeshop - Manhattan, NY"
+          - show:
+            - date: Friday May 31, 2013
+            - support: with Greg Jamie, Glass Anchors
+            - location: "@ The Oak and the Ax - Biddeford, ME"
+          - show:
+            - date: Saturday May 4, 2013
+            - location: "@ Pete's Candy Store - Brooklyn, NY"
+          - show:
+            - date: Saturday Feb 23, 2013
+            - support: with The Scene is Now
+            - location: "@ The Sycamore Bar & Flower Shop - Brooklyn, NY"
+          - show:
+            - date: Tuesday Feb 19, 2013
+            - support: with Woodsy Pride, The Sparrow, Kelly Keliher
+            - location: "@ Silent Barn - Brooklyn, NY"
+          - show:
+            - date: Wednesday Feb 13, 2013
+            - support: with Fred Thomas, Trummors, Glass Anchors
+            - location: "@ Googie's Lounge - Manhattan, NY"
+          - show:
+            - date: Friday Jan 25, 2013
+            - support: with Weyes Blood, Micah Charles Phillips, Doom Trumpet
+            - location: "@ 565 Lafayette Ave - Brooklyn, NY"
+          - show:
+            - date: Satruday Dec 8, 2012
+            - support: with Little Gold, Glass Anchors
+            - location: "@ Cookie Road - Athens, GA"
+          - show:
+            - date: Tuesday Dec 6, 2012
+            - support: with Fantasierock, Glass Anchors
+            - location: "@ The Nightlight - Chapel Hill, NC"
+          - show:
+            - date: Monday Dec 5, 2012
+            - support: with Glass Anchors
+            - location: "@ The Windup Space - Baltimore, MD"
+          - show:
+            - date: Sunday Dec 4, 2012
+            - support: with Weyes Blood, Strawberry Hands
+            - location: "Trinity House - Philadelphia, PA"
+          - show:
+            - date: Monday Dec 3, 2012
+            - support: with Doom Trumpet, Hearsay & Hyperbole
+            - location: "@ Cakeshop - Manhattan, NY"
+          - show:
+            - date: Tuesday Oct 2, 2012
+            - support: with Hairy Sands
+            - location: "@ Home Sweet Home - Manhattan, NY"
+              
+      - name: "Hairy Sands"
+      - shows:
+          - show:
+              - date: Tuesday Dec 9 2014
+              - support: with Bay Uno, C. Gibbs sings Motherwell Johnston
+              - location: "@ Union Pool - Brooklyn, NY"
+          - show:
+              - date: Saturday Oct 18 2014
+              - support: with Fragile Gang
+              - location: "@ Pete's Candy Store - Brooklyn, NY"
+          - show:
+              - date: Tuesday June 24 2014
+              - support: with Platnum Vision, Peter Kerlin Octet
+              - location: "@ Shea Stadium - Brooklyn, New York"
+          - show:
+              - date: Tuesday 21 Jan 2014
+              - support: with Prince Ruperts Drops, Jonas Reinhardt
+              - location: "@ Union Pool - Brooklyn, NY"
+          - show:
+              - date: Saturday Dec 21 2013
+              - support: with VietNam, Statuette, Baby Copperhead, Revival Times
+              - location: "@ Baby's Alright - Brookyn, NY"
+          - show:
+              - date: Tuesday Oct 8, 2013
+              - support: with Iola and George Sand
+              - location: "@ Cameo Gallery - Brooklyn, NY"
+          - show:
+              - date: Mar 2013
+              - support: with Monte de Rosas Band, George Sand and Hello Lovers
+              - location: "@ Cake Shop - New York, NY"
+          - show:
+              - date: Sunday December 9, 2012
+              - support: with Teletextile
+              - location: "@ Cameo Gallery - Brooklyn, NY"
+          - show:
+              - date: Sunday October 21, 2012
+              - support: with Aza Nizi Maza and Source of Yellow
+              - location: "@ Cameo Gallery - Brooklyn, NY"
+          - show:
+              - date: Tuesday October 2, 2012
+              - support: with George Sand
+              - location: "@ Home Sweet Home - New York, NY"
+
