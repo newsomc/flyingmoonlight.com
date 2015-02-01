@@ -12,10 +12,19 @@
                   <h2><%= a.name %></h2>
                   <% a.shows.to_a.each do |s| %>
                     <li>
-                      <% s.show.to_a.each do |detail| %>
-                        <div class="show-date-location"><u> <%= detail.date %> </u></div>
-                        <div> <%= detail.support %></div>
-                        <div> <%= detail.location %></div>
+                        <% s.show.to_a.each do |detail| %>
+                        <% if detail.date %>
+                          <div class="show-date"><u> <%= detail.date %> </u></div>
+                        <% end %>
+
+                        <% if detail.support %>
+                          <div class="show-support"> <%= detail.support %></div>
+                        <% end %>
+
+                        <% if detail.location %>
+                          <div class="show-location"> <%= detail.location %></div>
+                        <% end %>
+                        
                       <% end %>
                     </li>
                   <% end %>
