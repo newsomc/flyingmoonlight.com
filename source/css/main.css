@@ -25,7 +25,7 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    font-size: 1em;    
+    font-size: 1em;
     line-height: 1.4;
     margin-bottom: 60px;
 }
@@ -307,7 +307,7 @@ textarea {
 /* Sticky footer styles
 -------------------------------------------------- */
 body > .container {
-  padding: 60px 15px 0;
+  padding: 50px 0 0;
 }
 
 .footer {
@@ -341,7 +341,7 @@ body > .container {
     cursor: pointer;
 }
 
-/* Main Page 
+/* Main Page
 ---------------------------------------------------*/
 .right-bar-logo {
     width: 263px;
@@ -349,7 +349,7 @@ body > .container {
 
 .right-bar-shows
 .right-bar-audio {
-    list-style: none;    
+    list-style: none;
 }
 
 .right-bar-shows li {
@@ -357,13 +357,13 @@ body > .container {
 }
 
 .show-date-location {
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 /* Blog page
 -------------------------------------------------- */
 #blog-posts {
-    margin-top: 45px;   
+    margin-top: 45px;
 }
 
 .post-photo {}
