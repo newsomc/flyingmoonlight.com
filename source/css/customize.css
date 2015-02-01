@@ -4,6 +4,19 @@ body {
   font-family: 'Lato', Helvetica, sans-serif;
 }
 
+h1 {
+  font: 2.25em 'Crimson Text', serif;
+}
+
+h2 {
+  font: 1.75em 'Crimson Text', serif;
+}
+
+h3 {
+  font: 1.25em 'Crimson Text', serif;
+  text-transform: uppercase;
+}
+
 /* Navigation */
 .navbar-default {
   border: 0;
@@ -16,6 +29,10 @@ body {
   line-height: 1;
   color: #fff;
   padding: 11px 15px;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #e1a938;
 }
 
 .navbar-default .navbar-toggle {
@@ -43,8 +60,22 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
+  color: #e1a938;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: #e1a938;
   color: #fff;
 }
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  margin: 0;
+}
+
 
 /* Homepage Slider */
 .jumbotron {
