@@ -1,0 +1,65 @@
+/* General Styles */
+
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+/* Navigation */
+.navbar-default {
+  border: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-default .navbar-brand {
+  font: 1.6em 'Crimson Text', serif;
+  letter-spacing: .02em;
+  line-height: 1;
+  color: #fff;
+  padding: 11px 15px;
+}
+
+.navbar-default .navbar-toggle {
+  border: 0;
+  padding: 9px 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: rgba(255,255,255,0.7);
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background: rgba(255,255,255,1);
+}
+
+/* Homepage Slider */
+.jumbotron {
+  padding: 0;
+  background: none;
+  width: -webkit-calc(100% + 30px);
+  width: -moz-calc(100% + 30px);
+  width: calc(100% + 30px);
+  margin-left: -15px;
+}
+
+/* ========================================================================== */
+@media screen and (min-width: 768px) {
+
+  body > .container {
+    padding: 80px 0 0;
+  }
+
+  /* Homepage Slider */
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+}

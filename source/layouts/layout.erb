@@ -15,18 +15,23 @@
         <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        
+        <link rel="stylesheet" href="css/customize.css">
+
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
-        
+
+        <!-- Import Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
     </head>
-    <body>
+    <body <%= page_classes %>>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
             <![endif]-->
-        
+
         <!-- Fixed navbar -->
         <%= partial "header" %>
-        
+
         <!-- Begin page content -->
         <div class="container">
             <%= yield %>

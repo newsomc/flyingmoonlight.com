@@ -5,13 +5,15 @@ title: HTML5 Boilerplate Middleman
 <!-- Add your site or application content here -->
 <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
-        
+
         <div class="col-xs-12 col-sm-9">
+            <!-- This doesn't seem to do anything... Commenting out because it's just a random floating button
             <p class="pull-right visible-xs">
                 <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
             </p>
+            -->
             <div class="jumbotron">
-                
+
                 <div class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -28,7 +30,7 @@ title: HTML5 Boilerplate Middleman
                     <div class="carousel-inner" role="listbox">
                         <% Dir.entries("source/img/marketing").select {|f| !File.directory? f}.each_with_index do |file, index| %>
                           <% if index == 0 %><div class="item active"><% else %> <div class="item"><% end %>
-                            <img src="img/marketing/<%= file %>" alt="" style="width:848px;height:322px;">
+                            <img src="img/marketing/<%= file %>" alt="">
                             <div class="carousel-caption">
                                 Flying Moonlight 1
                             </div>
@@ -62,10 +64,10 @@ title: HTML5 Boilerplate Middleman
                             <% end %>
                           </div>
                           <% end %>
-                     </div>      
+                     </div>
                     </div>
                 </div>
-            
+
             <!--     <div class="row"> -->
             <!--     <div class="col-xs-6 col-lg-4"> -->
             <!--         <h2>Heading</h2> -->
@@ -84,7 +86,7 @@ title: HTML5 Boilerplate Middleman
             <!--     </div> -->
             <!-- </div> -->
         </div>
-            
+
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
             <div>
                 <img class="right-bar-logo" src="img/FMLogo_200.png" alt="FM Logo"/>
