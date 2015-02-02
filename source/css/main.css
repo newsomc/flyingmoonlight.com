@@ -372,3 +372,45 @@ body > .container {
     width: 150px;
     height: 150px;
 }
+
+
+/* Artist page
+-------------------------------------------------- */
+
+.artist-image-left {
+    height: 500px;
+}
+
+.artist-image-right {
+    width: 400px;
+    padding-left: 55px;
+    padding-bottom: 10px;
+}
+
+.artist-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.artist-video iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.release img {
+    border: 1px solid #000;
+}
+
+.release-full-size {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+    
+}

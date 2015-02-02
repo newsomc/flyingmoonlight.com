@@ -30,8 +30,13 @@ activate :directory_indexes
 # end
 
 page "about.html.erb", :layout => false
-page "artists.html.erb", :layout => false
 page "live.html.erb", :layout => false
+# page "artist.html.erb", :layout => false
+
+# Assumes the file source/about/template.html.erb exists
+["george-sand", "hairy-sands"].each do |name|
+  proxy "/artists/#{name}.html", "/artist.html", :locals => { :artist_name => name }
+end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {

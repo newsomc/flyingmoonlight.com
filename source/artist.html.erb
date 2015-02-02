@@ -1,0 +1,116 @@
+<!-- Add your site or application content here -->
+<div class="container">
+    <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+            <h1><%= artist_name %></h1>
+            <div class="artist">
+                <div class="artist-images">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="artist-image-left" alt="George Sand - Berlin" src="../img/artists/george-sand/GeorgeSand-berlin.jpg"/>
+                        </div>
+                        <div class="col-md-8">
+                            <img class="artist-image-right" alt="George Sand - Berlin" src="../img/artists/george-sand/GeorgeSand-band.jpg"/>
+                            <img class="artist-image-right" alt="George Sand - Berlin" src="../img/artists/george-sand/GeorgeSand-candace-kelly-jay.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <h1>Bio</h1>
+                <div class="artist-bio">
+                    GEORGE SAND (feat. Jay Pluck of Ed Askew Band) sing modern hymns and are from downtown Manhattan.
+                    "... strange, minimalist keyboard band... Jay Pluck has obviously had some immersion in Philip Glass:
+                    there's a hypnotic aspect to this music, but it's more raw and ragged and gently, methodically
+                    disquieting. Think of the creepy cinematics of In the Summer House and you'll be on the right track. All
+                    of the songs are working subtle, precisely articulated variations on broken chords, with an uneasy,
+                    modal melodic sense... (and) feature nebulously ominous guy/girl harmonies." -- New York Music Daily
+                </div>
+                
+                <h1>Video</h1>
+                <div class="artist-video">
+                    <iframe src="//player.vimeo.com/video/117653524" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/117653524">George Sand -- &quot;Avenue B&quot; [OFFICIAL VIDEO]</a> from <a href="http://vimeo.com/user2545719">Candace Thompson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+            <div>
+                <h2>Releases</h2>
+                <div class="releases">
+                    <div class="release">
+                        <img src="../img/releases/fm002/GeorgeSand-Caroline-sm.jpg" alt="George Sand - Caroline" />
+                        <h4 class="release-title">George Sand - Caroline (EP)</h4>
+                        <div class="release-formats">
+                            <select class="selectpicker">
+                                <option> Select Format </option>
+                                <option> Vinyl </option>
+                                <option> Cassette </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <h2>Shows</h2>
+                <hr>
+                <%= partial "upcoming_shows" %>
+            </div>
+            <div>
+                <h2>Audio</h2>
+                <hr>
+                <% data.featured_audio.bandcamp_embeds.each do |entry| %>
+                <ul class="list-group list-unstyled right-bar-audio">
+                    <% entry.artist.each do |ent| %>
+                    <p><%= ent.name %></p>
+                    <% ent.tracks.to_a.sample(2).each do |track| %>
+                    <li><%= track %></li>
+                    <% end %>
+                    <% end %>
+                </ul>
+                <% end %>
+            </div>
+        </div><!--/.sidebar-offcanvas-->
+    </div><!--/row-->
+    <hr>
+    <!-- Modal -->
+    <div class="modal fade" id="release-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="myModalLabel">George Sand - Caroline (EP) </h2>
+                    <img class="release-full-size img-responsive" src="../img/releases/fm002/GeorgeSand-Caroline.jpg" alt="George Sand - Caroline" />
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Track</th>
+                                <th>Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>AVE B.</td>
+                                <td>2:30</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>2 A.M.</td>
+                                <td>3:30</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>CAROLINE</td>
+                                <td>10:20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

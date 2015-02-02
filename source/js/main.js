@@ -10,7 +10,13 @@ $( document ).ready(function() {
   var init = function() {
     randomPhoto();
   };
-
+  
   init();
 
+  $('.selectpicker').selectpicker().change(function () {
+    
+    console.log('SELECT');
+    $('#release-modal').modal('show');
+  });
+  
 });
