@@ -40,10 +40,11 @@
                         <img src="../img/releases/fm002/GeorgeSand-Caroline-sm.jpg" alt="George Sand - Caroline" />
                         <h4 class="release-title">George Sand - Caroline (EP)</h4>
                         <div class="release-formats">
-                            <select class="selectpicker">
-                                <option> Select Format </option>
-                                <option> Vinyl </option>
-                                <option> Cassette </option>
+                            <select class="sidebar-selectpicker">
+                                <option value="None"> Select Format </option>
+                                <option value="vinyl" data-price="$7.00"> Vinyl </option>
+                                <option value="cassette" data-price="$4.00"> Cassette </option>
+                                <option value="cassette-and-vinyl" data-price="$10.00"> Cassette and Vinyl</option>
                             </select>
                         </div>
                     </div>
@@ -75,39 +76,48 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h2 class="modal-title" id="myModalLabel">George Sand - Caroline (EP) </h2>
-                    <img class="release-full-size img-responsive" src="../img/releases/fm002/GeorgeSand-Caroline.jpg" alt="George Sand - Caroline" />
+                    <h2 class="release-title">George Sand - Caroline (EP)<span class="release-title-format"><span></h2>
+                    <img class="release-full-size-img img-responsive" src="../img/releases/fm002/GeorgeSand-Caroline.jpg" alt="George Sand - Caroline" />
+                    <div class="release-price"></div>
+                    <div class="release-purchase"></div>
                 </div>
                 <div class="modal-body">
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Track</th>
-                                <th>Time</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>AVE B.</td>
-                                <td>2:30</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>2 A.M.</td>
-                                <td>3:30</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>CAROLINE</td>
-                                <td>10:20</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="release-description">Test. Test. Test.</div>
+                    <select class="modal-selectpicker">
+                        <option value="None"> Change Format </option>
+                        <option value="vinyl" data-price="$7.00"> Vinyl </option>
+                        <option value="cassette" data-price="$4.00"> Cassette </option>
+                        <option value="cassette-and-vinyl" data-price="$10.00"> Cassette and Vinyl</option>
+                    </select>
                 </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Track</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>AVENUE B.</td>
+                            <td>4:36</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>2 A.M.</td>
+                            <td>8:07</td>
+                            </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>CAROLINE</td>
+                            <td>6:22</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Purchase</button>
                 </div>
             </div>
         </div>

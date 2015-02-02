@@ -407,10 +407,30 @@ body > .container {
     border: 1px solid #000;
 }
 
-.release-full-size {
+.release-full-size-img {
     width: 350px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #000;
+}
+
+.release-title {
+    text-align: center;
+}
+
+.release-description{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.release-price {
+    font: 1.75em 'Crimson Text', serif;
+    padding-top: 10px;
+    text-align: center;
     
 }
+
+.modal-selectpicker {
+    text-align: center;
+}
+)
