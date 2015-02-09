@@ -16,11 +16,7 @@ $( document ).ready(function() {
   
   init();
   
-  $('.sidebar-selectpicker').selectpicker().change(function () {
-    var $format = $(this).val(),
-        $price = $(this).find(':selected').data('price');
-    $('.release-title-format').append(releaseFormatModal($format));
-    $('.release-price').html($price);
+  $('.buy').click(function () {
     $('#release-modal').modal('show');
   });
 

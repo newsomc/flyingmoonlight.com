@@ -403,6 +403,11 @@ body > .container {
     height: 100%;
 }
 
+.buy {
+   text-align: center;
+    
+}
+
 .release img {
     border: 1px solid #000;
 }
