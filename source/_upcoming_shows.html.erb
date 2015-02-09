@@ -1,9 +1,19 @@
 <ul class="list-group list-unstyled right-bar-shows">
-    <% data.shows.upcoming_events.each do |show| %>
+    <% data.shows.upcoming_events.each do |s| %>
     <li>
-        <div class="show-date-location"><u><%= show.date %></u></div>
-        <div><%= show.artists %></div>
-        <div><%= show.location %></div>
+        <% s.show.each do |show| %>
+        
+          <% if show.date %>
+            <div class="show-date-location"><u><%= show.date %></u></div>
+          <% end %>
+          <% if show.artists %>
+            <div><%= show.artists %></div>
+          <% end %>
+          <% if show.location %>
+            <div><%= show.location %></div>
+          <% end %>
+            
+        <% end %>
     </li>
     <% end %>
 </ul>

@@ -1,11 +1,12 @@
 upcoming_events:
-  - date: Tuesday, Jan 13 
-  - artists: Hairy Sands (Record Release) with People, George Sand, AAware
-  - location: "@ Trans Pecos"
-
-  - date: Friday, Feb 6
-  - artists: George Sand (Record Release) with Reg Bloor (Glenn Branca Ensemble), Greasy Grass (Pure Horsehair), and Rachel Trachtenburg
-  - location: "@ Bohemian Grove"
+  - show:
+    - date: Tuesday, Jan 13 
+    - artists: Hairy Sands (Record Release) with People, George Sand, AAware
+    - location: "@ Trans Pecos"
+  - show:
+    - date: Friday, Feb 6
+    - artists: George Sand (Record Release) with Reg Bloor (Glenn Branca Ensemble), Greasy Grass (Pure Horsehair), and Rachel Trachtenburg
+    - location: "@ Bohemian Grove"
 
 past_events:
   - artist:
