@@ -77,11 +77,11 @@
                     <div class="release-purchase"></div>
                 </div>
                 <div class="modal-body">
-                    <div class="release-description">Test. Test. Test.</div>
+                    <div class="release-description">3 Song EP. Recorded Summer 2014.</div>
                     <select class="modal-selectpicker">
-                        <option value="vinyl" data-price="$7.00"> Vinyl </option>
-                        <option value="cassette" data-price="$4.00"> Cassette </option>
-                        <option value="cassette-and-vinyl" data-price="$10.00"> Cassette and Vinyl</option>
+                        <option value="vinyl" data-description="Caroline: Vinyl EP" data-price="$7.00">Vinyl</option>
+                        <option value="cassette" data-description="Caroline: Cassette EP" data-price="$4.00">Cassette</option>
+                        <option value="cassette-and-vinyl" data-description="Caroline: Vinyl and Cassette EP" data-price="$10.00">Cassette and Vinyl</option>
                     </select>
                 </div>
                 <table class="table table-striped">
@@ -111,7 +111,16 @@
                     </tbody>
                 </table>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Purchase</button>
+                    <script id="test-button" async="async" src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+                            data-button="buynow" 
+                            data-name="Caroline" 
+                            data-amount="7.00" 
+                            data-shipping="2.00" 
+                            data-tax="0.0" 
+                            data-callback="localhost" 
+                            data-env="sandbox"
+                            ></script>
+                    <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Purchase</button> -->
                 </div>
             </div>
         </div>

@@ -22,9 +22,14 @@ $( document ).ready(function() {
 
   $('.modal-selectpicker').selectpicker().change(function () {
     var $format = $(this).val(),
-        $price = $(this).find(':selected').data('price');
+        $price = $(this).find(':selected').data('price'),
+        $description = $(this).find(':selected').data('description');
+
     $('.release-title-format').html(releaseFormatModal($format));
     $('.release-price').html($price);
+
+    $('input[name=item_name]').val($description);
+    $('input[name=amount]').val($price);
   });
   
 });
