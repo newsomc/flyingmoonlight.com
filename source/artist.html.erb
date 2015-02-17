@@ -3,7 +3,7 @@
     <div class="row row-offcanvas row-offcanvas-right">
 
         <div class="col-xs-12 col-sm-9">
-            <h1><%= artist_name %></h1>
+            <h1><%= artist_name.split(/-|\_/).map(&:capitalize).join(" ") %></h1>
             <div class="artist">
                 <div class="artist-images">
                     <div class="row">
@@ -40,7 +40,7 @@
                         <img src="../img/releases/fm002/GeorgeSand-Caroline-sm.jpg" alt="George Sand - Caroline" />
                         <h4 class="release-title">George Sand - Caroline (EP)</h4>
                         <div class="release-formats">
-                            <button type="button" class="btn btn-lg btn-success buy">Buy</button>
+                            <button type="button" class="btn btn-block btn-success buy">Buy</button>
                         </div>
                     </div>
                 </div>
