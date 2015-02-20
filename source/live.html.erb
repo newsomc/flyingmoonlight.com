@@ -1,35 +1,37 @@
 <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
-        <h1> Upcoming</h1>
-        <%= partial(:upcoming_shows, :locals => {:tag => nil})  %>
-        <hr>
-        <h1> Past </h1>
-        <ul class="list-group list-unstyled right-bar-shows">
-            <% data.shows.past_events.each do |entry| %>
-              <ul class="list-group list-unstyled right-bar-audio">
-                <% entry.artist.each do |a| %>
-                  <h2><%= a.name %></h2>
-                  <% a.shows.to_a.each do |s| %>
+        <div class="col-xs-12 col-sm-9">
+            <h1> Upcoming</h1>
+            <%= partial(:upcoming_shows, :locals => {:tag => nil})  %>
+            <hr>
+            <h1> Past </h1>
+            <ul class="list-group list-unstyled right-bar-shows">
+                <% data.shows.past_events.each do |entry| %>
+                <ul class="list-group list-unstyled right-bar-audio">
+                    <% entry.artist.each do |a| %>
+                    <h2><%= a.name %></h2>
+                    <% a.shows.to_a.each do |s| %>
                     <li>
                         <% s.show.to_a.each do |detail| %>
                         <% if detail.date %>
-                          <div class="show-date"><u> <%= detail.date %> </u></div>
-                        <% end %>
-
-                        <% if detail.support %>
-                          <div class="show-support"> <%= detail.support %></div>
-                        <% end %>
-
-                        <% if detail.location %>
-                          <div class="show-location"> <%= detail.location %></div>
+                        <div class="show-date"><u> <%= detail.date %> </u></div>
                         <% end %>
                         
-                      <% end %>
+                        <% if detail.support %>
+                        <div class="show-support"> <%= detail.support %></div>
+                        <% end %>
+                        
+                        <% if detail.location %>
+                        <div class="show-location"> <%= detail.location %></div>
+                        <% end %>
+                        
+                        <% end %>
                     </li>
-                  <% end %>
+                    <% end %>
+                    <% end %>
+                </ul>
                 <% end %>
-              </ul>
-            <% end %>
-        </ul>
+            </ul>
+        </div>
     </div>
 </div>
