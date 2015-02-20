@@ -1,4 +1,4 @@
 Flyingmoonlight.com
 ---
 
-Middleman site for the Flyingmoonlight records site.
+Middleman site for the Flying Moonlight records.
