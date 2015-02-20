@@ -1,5 +1,4 @@
 var posts = tumblr_api_read.posts;
-console.log(posts);
 
 _.templateSettings = {
   interpolate: /\{\{\=(.+?)\}\}/g,
@@ -7,6 +6,7 @@ _.templateSettings = {
 };
 
 var blog_view = $('#posts').html();
+
 $('#blog-posts').append(_.template(blog_view, posts));
 
 $(document).ready(function(){

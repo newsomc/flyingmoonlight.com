@@ -18,6 +18,9 @@ $( document ).ready(function() {
   
   $('.buy').click(function () {
     $('#release-modal').modal('show');
+    $('.release-title-format').html(
+      $(".modal-selectpicker option:first").data('description')
+    );
   });
 
   $('.modal-selectpicker').selectpicker().change(function () {
@@ -25,7 +28,7 @@ $( document ).ready(function() {
         $price = $(this).find(':selected').data('price'),
         $description = $(this).find(':selected').data('description');
 
-    $('.release-title-format').html(releaseFormatModal($format));
+    $('.release-title-format').html($description);
     $('.release-price').html($price);
 
     $('input[name=item_name]').val($description);

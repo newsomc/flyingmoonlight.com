@@ -1,35 +1,59 @@
 <!-- Add your site or application content here -->
+<% artist = data.artists[artist_name] %>
 <div class="container">
     <div class="row row-offcanvas row-offcanvas-right">
-
         <div class="col-xs-12 col-sm-9">
-            <h1><%= artist_name.split(/-|\_/).map(&:capitalize).join(" ") %></h1>
+            <h1><%= artist.name %></h1>
             <div class="artist">
                 <div class="artist-images">
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="artist-image-left" alt="George Sand - Berlin" src="../img/artists/george-sand/GeorgeSand-berlin.jpg"/>
+                            <% if artist.image_vert_width %>
+                              <img class="artist-image-left" alt="Vertical image of <%= artist.name %>" src="<%= artist.image_vert %>" style="height: <%=artist.image_vert_width %>" />
+                            <% elsif artist.image_vert_pad_top %>
+                              <img class="artist-image-left" alt="Vertical image of <%= artist.name %>" src="<%= artist.image_vert %>" style="padding-top: <%=artist.image_vert_pad_top %>" />
+                            <% else %>
+                              <img class="artist-image-left" alt="Vertical image of <%= artist.name %>" src="<%= artist.image_vert %>" />
+                            <% end %>
                         </div>
                         <div class="col-md-8">
-                            <img class="artist-image-right" alt="George Sand - Berlin" src="../img/artists/george-sand/GeorgeSand-band.jpg"/>
-                            <img class="artist-image-right" alt="George Sand - Berlin" src="../img/artists/george-sand/GeorgeSand-candace-kelly-jay.jpg"/>
+                            <img class="artist-image-right" alt="Horizontal image of <%= artist.name %>" src="<%= artist.image_horz_1 %>"/>
+                            <img class="artist-image-right" alt="Horizontal image of <%= artist.name %>" src="<%= artist.image_horz_2 %>"/>
                         </div>
                     </div>
                 </div>
-                <h1>Bio</h1>
                 <div class="artist-bio">
-                    GEORGE SAND (feat. Jay Pluck of Ed Askew Band) sing modern hymns and are from downtown Manhattan.
-                    "... strange, minimalist keyboard band... Jay Pluck has obviously had some immersion in Philip Glass:
-                    there's a hypnotic aspect to this music, but it's more raw and ragged and gently, methodically
-                    disquieting. Think of the creepy cinematics of In the Summer House and you'll be on the right track. All
-                    of the songs are working subtle, precisely articulated variations on broken chords, with an uneasy,
-                    modal melodic sense... (and) feature nebulously ominous guy/girl harmonies." -- New York Music Daily
+                    <%= artist.bio.main %>
                 </div>
-                
+                <hr>
+                <div class="recent-release">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="<%= artist.release.image_sm %>" alt="<%= artist.release.image_alt %>" style="width: 128px;">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading"><%= artist.release.title %></h2>
+                            <%= artist.release.description %>
+                        </div>
+                    </div>
+                </div>
+                <hr>
                 <h1>Video</h1>
                 <div class="artist-video">
-                    <iframe src="//player.vimeo.com/video/117653524" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/117653524">George Sand -- &quot;Avenue B&quot; [OFFICIAL VIDEO]</a> from <a href="http://vimeo.com/user2545719">Candace Thompson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <%= artist.featured_video %>
                 </div>
+                <h1> Bio </h1>
+                <% if artist.bio.detail %>
+                  <div class="artist-bio"> <%= artist.bio.detail %> </div>
+                <% end %>
+                <% if artist.bio.origin %>
+                  <div class="artist-bio"> <%= artist.bio.origin %> </div>
+                <% end %>
+                <% if artist.bio.played_with %>
+                  <div class="artist-bio"> <%= artist.bio.played_with %> </div>
+                <% end %>
             </div>
         </div>
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
@@ -37,31 +61,14 @@
                 <h2>Releases</h2>
                 <div class="releases">
                     <div class="release">
-                        <img src="../img/releases/fm002/GeorgeSand-Caroline-sm.jpg" alt="George Sand - Caroline" />
-                        <h4 class="release-title">George Sand - Caroline (EP)</h4>
+                        <img src="<%= artist.release.image_sm %>" alt="<%= artist.release.image_alt %>" />
                         <div class="release-formats">
-                            <button type="button" class="btn btn-block btn-success buy">Buy</button>
+                            <button type="button" class="btn btn-block buy">Buy</button>
                         </div>
                     </div>
                 </div>
-                <h2>Shows</h2>
-                <hr>
-                <%= partial "upcoming_shows" %>
             </div>
-            <div>
-                <h2>Audio</h2>
-                <hr>
-                <% data.featured_audio.bandcamp_embeds.each do |entry| %>
-                <ul class="list-group list-unstyled right-bar-audio">
-                    <% entry.artist.each do |ent| %>
-                    <p><%= ent.name %></p>
-                    <% ent.tracks.to_a.sample(2).each do |track| %>
-                    <li><%= track %></li>
-                    <% end %>
-                    <% end %>
-                </ul>
-                <% end %>
-            </div>
+            <%= partial(:main_sidebar, :locals => {:artist_name => artist_name }) %>
         </div><!--/.sidebar-offcanvas-->
     </div><!--/row-->
     <hr>
@@ -71,17 +78,18 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h2 class="release-title">George Sand - Caroline (EP)<span class="release-title-format"><span></h2>
-                    <img class="release-full-size-img img-responsive" src="../img/releases/fm002/GeorgeSand-Caroline.jpg" alt="George Sand - Caroline" />
+                    <h2 class="release-title"><%= artist.name %> - <span class="release-title-format"><span></h2>
+                    <img class="release-full-size-img img-responsive" src="<%= artist.release.image_sm %>" alt="<%= artist.release.image_alt %>" />
                     <div class="release-price"></div>
                     <div class="release-purchase"></div>
                 </div>
                 <div class="modal-body">
-                    <div class="release-description">3 Song EP. Recorded Summer 2014.</div>
+                    <div class="release-description"><%= artist.release.description_sm %></div>
                     <select class="modal-selectpicker">
-                        <option value="vinyl" data-description="Caroline: Vinyl EP" data-price="$7.00">Vinyl</option>
-                        <option value="cassette" data-description="Caroline: Cassette EP" data-price="$4.00">Cassette</option>
-                        <option value="cassette-and-vinyl" data-description="Caroline: Vinyl and Cassette EP" data-price="$10.00">Cassette and Vinyl</option>
+                        <% artist.release.formats.each_with_index do |r, index| %>
+                          <% v = r.format.value.gsub('-', ' ').titleize %>
+                          <option value="<%= r.format.value %>" data-description="<%= r.format.description %>" data-price="<%= r.format.price %>"><%= v %></option>
+                        <% end %>
                     </select>
                 </div>
                 <table class="table table-striped">
@@ -93,34 +101,26 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>AVENUE B.</td>
-                            <td>4:36</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>2 A.M.</td>
-                            <td>8:07</td>
-                            </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>CAROLINE</td>
-                            <td>6:22</td>
-                        </tr>
+                      <% artist.release.tracks.each_with_index do |r, index| %>
+                      <tr> 
+                        <th scope="row"><%= index.next() %></th>
+                        <td><%= r.track.title %></td>
+                        <td><%= r.track.time %></td>
+                      </tr>
+                    <% end %>
                     </tbody>
                 </table>
                 <div class="modal-footer">
-                    <script id="test-button" async="async" src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
-                            data-button="buynow" 
-                            data-name="Caroline" 
-                            data-amount="7.00" 
-                            data-shipping="2.00" 
-                            data-tax="0.0" 
-                            data-callback="localhost" 
-                            data-env="sandbox"
+                    <% button = artist.paypal_button %>
+                    <script id="test-button" async="async" src="<%= button.destination %>"
+                            data-button="<%= button.type %>" 
+                            data-name="<%= button.purchase_name %>" 
+                            data-amount="<%= button.amount %>" 
+                            data-shipping="<%= button.shipping %>" 
+                            data-tax="<%= button.tax %>" 
+                            data-callback="<%= button.host %>" 
+                            data-env="<%= button.env %>"
                             ></script>
-                    <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Purchase</button> -->
                 </div>
             </div>
         </div>

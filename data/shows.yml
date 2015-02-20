@@ -1,17 +1,27 @@
 upcoming_events:
   - show:
-    - date: Tuesday, Jan 13 
-    - artists: Hairy Sands (Record Release) with People, George Sand, AAware
-    - location: "@ Trans Pecos"
+      - date: Sunday, March 1
+        artists: George Sand, Devon Sproule, Erin Durant
+        location: "@ Jalopy - Brooklyn, NY"
+        location_link: http://www.jalopy.biz
+        tag: 'george-sand'
   - show:
-    - date: Friday, Feb 6
-    - artists: George Sand (Record Release) with Reg Bloor (Glenn Branca Ensemble), Greasy Grass (Pure Horsehair), and Rachel Trachtenburg
-    - location: "@ Bohemian Grove"
+      - date: Saturday, March 7
+        artists: Hairy Sands, Bay Uno, Serena Jean
+        location: "@ The Living Room - Williamsburg, Brooklyn"
+        location_link: http://www.livingroomny.com/event/2015-03-07/hairy-sands
+        tag: 'hairy-sands'
+  - show:
+      - date: Thursday, April 23rd
+        artists: George Sand, The Scene is Now, Rachel Trachtenburg, and Luscious Skin
+        location: "@ Cake Shop - Manhattan, NY"
+        location_link: http://cake-shop.com
+        tag: 'george-sand'
 
 past_events:
   - artist:
-      - name: "George Sand & Hairy Sands <br/> European Tour 2014"
-      - shows:
+      - name: "George Sand / Hairy Sands / European Tour 2014"
+      - shows:                          
           - show:
               - date: Tuesday Oct 21 
               - support: with Rose Mercie
@@ -54,6 +64,11 @@ past_events:
                 
       - name: "George Sand"
       - shows:
+          - show:
+              - date: Friday, Feb 6
+              - support: Reg Bloor (Glenn Branca Ensemble), Greasy Grass (Pure Horsehair), and Rachel Trachtenburg
+              - location: "@ Bohemian Grove"
+
           - show:
             - date: Thursday Dec 4, 2014
             - support: with Adam Evald, Iola
@@ -151,6 +166,10 @@ past_events:
               
       - name: "Hairy Sands"
       - shows:
+          - show:
+              - date: Tuesday, Jan 13 
+              - support: People, George Sand, AAware
+              - location: "@n Trans Pecos"
           - show:
               - date: Tuesday Dec 9 2014
               - support: with Bay Uno, C. Gibbs sings Motherwell Johnston

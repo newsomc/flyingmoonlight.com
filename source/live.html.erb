@@ -1,8 +1,7 @@
 <div class="container">
-    <div class="row">
-        
+    <div class="row row-offcanvas row-offcanvas-right">
         <h1> Upcoming</h1>
-        <%= partial "upcoming_shows" %>
+        <%= partial(:upcoming_shows, :locals => {:tag => nil})  %>
         <hr>
         <h1> Past </h1>
         <ul class="list-group list-unstyled right-bar-shows">

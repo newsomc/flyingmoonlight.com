@@ -1,0 +1,131 @@
+george-sand:
+  name: "George Sand"
+  bio:
+    main: "<strong>George Sand</strong> (feat. Jay Pluck of Ed Askew Band) has been called a '... strange, minimalist keyboard band... Jay Pluck has obviously had some immersion in Philip Glass, there's a hypnotic aspect to this music, but it's more raw and ragged and gently, methodically disquieting. Think of the creepy cinematics of In the Summer House and you'll be on the right track. All of the songs are working subtle, precisely articulated variations on broken chords, with an uneasy, modal melodic sense... (and) feature nebulously ominous guy/girl harmonies.' <i>- New York Music Daily</i>"
+    detail: "<p>Jay Pluck (piano, voice) is an artist in NYC. He is the principle songwriter in Geroge Sand and plays in the <a href='https://www.youtube.com/watch?v=65syVvVN7ME'>Ed Askew Band</a>. He curates the visual arts series <a href='http://thegodlightatjudson.tumblr.com/'>The God Light</a>, at Judson Memorial Church. He works on paintings, drawings, sculpture, and poetry.</p>
+
+<p>Candace Thompson (voice, Autoharp) is a performer and videographer from eastern Kentucky. She has most recently performed in projects at The Guggenheim Museum and the 2014 BAM Next Wave Festival, and has appeared twice in the web series, <a href='https://vimeo.com/ondemand/highmaintenance'>High Maintenance</a>. She is an audiobook voice actor and also a freelance video producer and editor with <a href='http://100people.org/'>The 100 People Foundation</a>.</p>
+
+<p>Kelly Keliher (voice) is a musician and visual artist recently returned to NYC from San Francisco. She is <a href='http://nativenaive.bandcamp.com'>Nativenaive</a> and has recently played with <a href='https://heidiharris.bandcamp.com'>Heidi Harris</a>.</p>
+
+<p>Michael Durek (theremin) is a multi-instrumentalist, sound designer and producer. He is <a href='http://michaeldurek.com/wp/theusemusic'>The Use</a> and also plays with <a href='http://www.pasmusique.net/index.html'>Pas Musique</a>. He has recently performed in notable festivals including Upvan Arts, CoCArt Festival, Avant Garde Festival and Kunstzwerg Festival and also at the Queens Museum. He has appeared on approx 25 albums.</p>
+
+<p>Tyler Evans (guitar) is a musician in NYC. He plays in <a href='https://www.youtube.com/watch?v=65syVvVN7ME'>Ed Askew Band</a>, Garlands, <a href='http://old3c.com/malefactors.html'>Malefactor</a>, <a href='http://theblackswans.com'>The Black Swans</a>, and solo projects which include film scoring. </p>
+
+<p>Clint Newsom (bass) is a musician, programmer, and the founder of Flying Moonlight. He plays in <a href='https://hairysands.bandcamp.com'>Hairy Sands</a> and was a principle member of <a href='http://www.popmatters.com/review/rhythmofblacklines-human'> Rhythm of Black Lines</a>, <a href='https://myspace.com/theminetta'>Minetta</a>, <a href='http://texaspunktreasurechest.blogspot.com/2009/12/hades-kick.html'>The Hades Kick</a>, <a href='http://en.wikipedia.org/wiki/The_Fall_on_Deaf_Ears'>The Fall on Deaf Ears</a>, and <a href='http://www.theplugg.com/reflections-dogs-without-fear-of-dying'>Reflections</a> (solo).</p>"
+
+    origin: "George Sand began when Jay Pluck and Kelly Keliher started a band with Jeffrey Pratt called Koning's Blauw. K.'s B. moved from idea-driven percussion to evocative songs. After Kelly moved to San Francisco, Candace Thompson applied her interest in Appalachian-style singing. Michael Durek and Julia Violet helped Jay P. with his long-song project after the end of K's B. This became George Sand -- happily, Candace and Jay again started working together in earnest and Jay's bandmate in Ed Askew Band, Tyler Evans, began to make heady contributions."
+
+    played_with: "<p>George Sand has played consistently in NYC for over two years, touring the east coast and also going to Berlin three times. G.S. also toured France, Spain, and Germany with labelmates, Hairy Sands.</p> 
+
+<p>During this time, G.S. has played with the legendary The Scene is Now, Ed Askew, Daniel Carter & Federico Ughi, Neal Morgan, Weyes Blood, Reg Bloor, Christy & Emily, Baby Copperhead, Trummors, Rachel Trachtenburg, Pure Horsehair, Eartheater, Opal Onyx, Hearsay & Hyperbole, Bob Bannister, Vaudeville, Faten Kanaan, Steev Lemercier, Hallo, The Neighbors, Strawberry Hands, Abhay Singh & Friends, Lazurite, Glass Anchors, Hello Lovers, Doom Trumpet, Hunter Simpson, Psychic Lines, Virginia Plain, Luscious Skin, Strange Walls, The Sparrow, Woodsy Pride, and Heroes of Toolik (Evans Wolforth of Glenn Branca Ensemble, Ernie Brooks of Modern Lovers, Billy Ficca of Television). </p>"
+
+  image_vert: "../img/artists/george-sand/GeorgeSand-berlin.jpg"
+  image_vert_width: "500px"
+  image_horz_1: "../img/artists/george-sand/GeorgeSand-band.jpg"
+  image_horz_2: "../img/artists/george-sand/GeorgeSand-candace-kelly-jay.jpg"
+  featured_video: "<iframe src='//player.vimeo.com/video/117653524' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+  release:
+    title: "Caroline"
+    image_sm: "../img/releases/fm002/GeorgeSand-Caroline-sm.jpg"
+    image_lg: "../img/releases/fm002/GeorgeSand-Caroline.jpg"
+    image_alt: "George Sand - Caroline"    
+    description: "The 'Caroline EP' is a paean to a New York City life, it is a modern hymn of devotion to literary humans - Antonia Shimerda, Moses, Gwendolyn Harleth & Daniel Deronda. The three songs are the first G.S. tunes written with the full band in mind and strive to be open-ended with sudden shifts and continuous harmony."
+    description_sm: "3 Song EP. Recorded Summer 2014."
+    tracks:
+      - track:
+          title: "AVENUE B."
+          time: "4:36"
+      - track:
+          title: "2 A.M."
+          time: "8:07"
+      - track:
+          title: "CAROLINE"
+          time: "6:22"
+    formats:
+      - format:
+          description: "Caroline - Vinyl EP"
+          value: "vinyl"
+          price: "$7.00"
+      - format:
+          description: "Caroline - Cassette EP"
+          value: "cassette"
+          price: "$4.00"
+      - format:
+          description: "Caroline -  Vinyl & Cassette EP"
+          value: "cassette-and-vinyl"
+          price: "$10.00"
+          
+  paypal_button:
+    type: "buynow"
+    env: "sandbox"
+    host: "localhost"
+    purchase_name: "Caroline"
+    amount: "7.00"
+    tax: "0.0"
+    shipping: "2.00"
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+
+    
+hairy-sands:
+  name: "Hairy Sands"
+  bio:
+    main: "Called 'a crazy diamond from the NYC underground,' Hairy Sands lives up to it with their newest album, Tears (Flying Moonlight). The band features Clint Newsom (bass on VietNam's last album 'An American Dream'), Tim Kuhl (of Sean Lennon's GOASTT), David Nolen and Danica Newell. They've shared the stage with the likes of Prince Rupert's Drops, Sophia Knapp (Drag City), and Jonas Rienhardt (Kranky). Last October the band toured Europe from Paris to Madrid playing secret shows in hidden mountain venues and ocean-side huts. Praised for their 'beautifully quirky' performance at Loophole from the Berlin's leftist paper Taz, Hairy Sands' music has since been popping up on several Euro playlists and top tens."
+    detail: "If there is a common thread that runs through the decade long existence of Hairy Sands, it is a childlike willingness to let anything be the beginning for a musical idea. Started as an outlet for recording sounds on the fly, Hairy Sands combine intricate guitar playing with layered harmonies, and polyrythmic bass and piano parts. Hairy Sands is Clint Newsom, David Nolen and Danica Newell."
+    origin: "They began in an apartment accross from the park."
+  image_vert: "../img/artists/hairy-sands/HairySands-Berlin.jpg"
+  image_vert_pad_top: "12px"
+  image_horz_1: "../img/artists/hairy-sands/HairySands-Head-Shot-sm.jpg"
+  image_horz_2: "../img/artists/hairy-sands/HairySands-Live-Solarized.jpg"
+  featured_video: "<iframe src='https://www.youtube.com/embed/kpr7iRr8Bbo' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+  release:
+    title: "Tears"
+    image_sm: "../img/releases/fm001/HairySands-Tears-sm.jpg"
+    image_lg: "../img/releases/fm001/HairySands-Tears.jpg"
+    image_alt: "Hairy Sands - Tears"    
+    description: "The description of Tears."
+    description_sm: "9 Song LP. Recorded 2014."
+    tracks:
+      - track:
+          title: "Run"
+          time: "2:23"
+      - track:
+          title: "More"
+          time: "3:59"
+      - track:
+          title: "The Swim"
+          time: "4:35"
+      - track:
+          title: "Life in the Trees"
+          time: "3:32"
+      - track:
+          title: "New Life"
+          time: "4:42"
+      - track:
+          title: "Venus"
+          time: "3:03"
+      - track:
+          title: "Brother"
+          time: "2:29"
+      - track:
+          title: "We were Right"
+          time: "3:47"
+      - track:
+          title: "Luminous Mess"
+          time: "4:39"
+          
+    formats:
+      - format:
+          description: "Tears - 180 gram Vinyl LP"
+          value: "vinyl"
+          price: "$16.00"
+          
+  paypal_button:
+    type: "buynow"
+    env: "sandbox"
+    host: "localhost"
+    purchase_name: "Tears"
+    amount: "16.00"
+    tax: "0.0"
+    shipping: "2.00"
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 

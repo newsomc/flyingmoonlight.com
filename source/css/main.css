@@ -377,10 +377,6 @@ body > .container {
 /* Artist page
 -------------------------------------------------- */
 
-.artist-image-left {
-    height: 500px;
-}
-
 .artist-image-right {
     width: 400px;
     padding-left: 55px;
@@ -404,9 +400,23 @@ body > .container {
 }
 
 .buy {
+   background-color: #e1a938;
    text-align: center;
-    
+   width: 302px;
+   margin-top: 10px;
+   border: 1px solid #b2801b;
+   border-radius: 0;
+   font-size: 19px;
 }
+
+.recent-release {
+    margin: 0.67em 0;
+}
+
+.buy:hover {
+    background-color: #b2801b;
+}
+
 
 .release img {
     border: 1px solid #000;
@@ -438,4 +448,3 @@ body > .container {
 .modal-selectpicker {
     text-align: center;
 }
-)

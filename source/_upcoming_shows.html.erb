@@ -1,19 +1,45 @@
 <ul class="list-group list-unstyled right-bar-shows">
-    <% data.shows.upcoming_events.each do |s| %>
-    <li>
-        <% s.show.each do |show| %>
-        
-          <% if show.date %>
-            <div class="show-date-location"><u><%= show.date %></u></div>
-          <% end %>
-          <% if show.artists %>
-            <div><%= show.artists %></div>
-          <% end %>
-          <% if show.location %>
-            <div><%= show.location %></div>
-          <% end %>
-            
+    <% if tag != nil %>
+      <% data.shows.upcoming_events.each do |s| %>
+        <li>
+          <% s.show.each do |show| %>
+            <% if show.tag == tag %> 
+              <% if show.date %>
+                <div class="show-date-location"><u><%= show.date %></u></div>
+              <% end %>
+              <% if show.artists %>
+                <div><%= show.artists %></div>
+              <% end %>
+              <% if show.location %>
+                <% if show.location_link %>
+                  <div><a href= "<%= show.location_link %>"> <%= show.location %></a></div>
+                <% else %>
+                  <div><%= show.location %></div>
+                <% end %>
+              <% end %>
+            <% end %>
+          <% end %>  
+        </li>
         <% end %>
-    </li>
+    <% else %>
+      <% data.shows.upcoming_events.each do |s| %>
+        <li>
+          <% s.show.each do |show| %>
+            <% if show.date %>
+              <div class="show-date-location"><u><%= show.date %></u></div>
+            <% end %>
+            <% if show.artists %>
+              <div><%= show.artists %></div>
+            <% end %>
+            <% if show.location %>
+              <% if show.location_link %>
+                <div><a href= "<%= show.location_link %>"> <%= show.location %></a></div>
+              <% else %>
+                <div><%= show.location %></div>
+              <% end %>
+            <% end %>
+          <% end %>
+        </li>
+        <% end %>
     <% end %>
 </ul>
