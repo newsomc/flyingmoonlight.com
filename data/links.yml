@@ -1,0 +1,61 @@
+section_one:
+  - title: Artists
+    links:
+      - name: George Sand
+        href: https://georgesand.bandcamp.com
+      - name: Hairy Sands
+        href: https://hairysands.bandcamp.com
+      - name: Ed Askew Band
+        href: https://edaskew.bandcamp.com
+      - name: Tim Kuhl
+        href: http://timkuhl1.bandcamp.com
+      - name: lefty | bones
+        href: https://soundcloud.com/leftybones
+      - name: Fragile Gang
+        href: https://fragilegang.bandcamp.com
+      - name: Hello Lovers
+        href: https://hellolovers.bandcamp.com
+      - name: Steve Lemercier
+        href: https://soundcloud.com/lemercier
+      - name: Inees
+        href: https://soundcloud.com/racontepas
+      - name: Charlene Darling
+        href: https://soundcloud.com/charleene-darling
+      - name: Kid Congo and the Pink Monkey Birds
+        href: http://kidcongopowers.blogspot.com
+      - name: People
+        href: https://www.youtube.com/watch?v=8T-8jcTeMFc
+      - name: Peter Kerlin Octet
+        href: http://blog.thebulk.net/?portfolio=octet
+        
+  - title: Friends
+    links:
+      - name: Emily Mae Smith
+        href: http://emilymaesmith.com
+      - name: Sonny Kay
+        href: http://www.sonnykay.com
+      - name: Chicago Mastering Service
+        href: http://www.chicagomasteringservice.com
+      - name: Erika Records
+        href: www.ericrecords.com
+      - name: Albert Mestres Portavella
+        href: http://fressaent.blogspot.com/
+
+section_two:
+  - title: Studios & Recordists
+    links:
+      - name: Vacation Island Studios
+        href: http://www.vacationislandrecording.com
+      - name: "Gary's Electric"
+        href: http://www.npr.org/blogs/therecord/2013/02/28/173081037/how-a-studio-changes-your-sound
+      - name: Steve Sliverstein
+        href: http://tapeop.com/reviews/gear/by/steve-silverstein/
+      - name: Vibromonk
+        href: http://www.vibromonk.com
+      
+  - title: Other labels
+    links:
+      - name: Unseen Worlds
+        href: http://www.unseenworlds.net
+      - name: Tin Angel
+        href: http://www.tinangelrecords.co.uk

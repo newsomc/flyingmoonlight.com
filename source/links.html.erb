@@ -1,0 +1,32 @@
+---
+title: links
+---
+
+<div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-xs-12 col-sm-9">
+        <div class="col-xs-6">
+            <div>
+                <% data.links.section_one.each do |section| %>
+                  <h2><%= section.title %></h2>
+                  <ul class="list-unstyled">
+                  <% section.links.each do |link| %>
+                    <li><a href="<%= link.href %>" target="_blank"><%= link.name %></a></li>
+                  <% end %>
+                  </ul>
+                <% end %>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div>
+                <% data.links.section_two.each do |section| %>
+                  <h2><%= section.title %></h2>
+                  <ul class="list-unstyled">
+                  <% section.links.each do |link| %>
+                    <li><a href="<%= link.href %>" target="_blank"><%= link.name %></a></li>
+                  <% end %>
+                  </ul>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</div>

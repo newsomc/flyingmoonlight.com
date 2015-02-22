@@ -31,7 +31,7 @@ activate :directory_indexes
 
 page "about.html.erb", :layout => false
 page "live.html.erb", :layout => false
-# page "artist.html.erb", :layout => false
+page "links.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
 ["george-sand", "hairy-sands"].each do |name|
