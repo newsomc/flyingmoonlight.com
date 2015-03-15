@@ -32,10 +32,11 @@ activate :directory_indexes
 page "about.html.erb", :layout => false
 page "live.html.erb", :layout => false
 page "links.html.erb", :layout => false
+page "contact.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
 ["george-sand", "hairy-sands"].each do |name|
-  proxy "/artists/#{name}.html", "/artist.html", :locals => { :artist_name => name }
+  proxy "/artists/#{name}.html", "/artist.html", :locals => { :artist_name => name }, :ignore => true
 end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
@@ -132,4 +133,13 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+activate :deploy do |deploy|
+  deploy.method = :rsync
+  deploy.host   = 'flyingmoonlight.com'
+  deploy.path   = '/srv/www/flyingmoonlight.com/public_html'
+  deploy.user  = 'hcnewsom' # no default
+  deploy.port  = 22
+  deploy.clean = true # remove orphaned files on remote host, default: false
 end

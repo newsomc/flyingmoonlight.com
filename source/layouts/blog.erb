@@ -16,8 +16,12 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/customize.css">
-
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <%= stylesheet_link_tag 'bootstrap/css/bootstrap.min.css' %>
+        <%= stylesheet_link_tag 'css/normalize.css' %>
+        <%= stylesheet_link_tag 'css/main.css' %>
+        <%= stylesheet_link_tag 'css/customize.css' %>
+        <%= javascript_include_tag 'js/vendor/modernizr-2.6.1.min.js' %>
 
         <!-- Import Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,700italic,600italic,400italic' rel='stylesheet' type='text/css'>
@@ -40,10 +44,12 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="css/bootstrap/js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
+        <%= javascript_include_tag 'css/bootstrap/js/bootstrap.min.js' %>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
+        <%= javascript_include_tag 'js/plugins.js' %>
         <script type="text/javascript" src="http://flyingmoonlight.tumblr.com/api/read/json"></script>
-        <script src="js/vendor/underscore-min.js"></script>
+        <%= javascript_include_tag 'js/vendor/underscore-min.js' %>
+        
         <script id="posts" type="text/template">
             <div class="container">
                 {{ _.each(posts, function(post, post_key, list) { }}
@@ -71,8 +77,7 @@
                  {{ }); }}
             </div>
         </script>
-        <script type="text/javascript" src="js/blog.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <%= javascript_include_tag 'js/blog.js' %>
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

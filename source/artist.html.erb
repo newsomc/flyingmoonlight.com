@@ -1,3 +1,7 @@
+---
+title: Flying Moonlight Records | data.artists[artist_name]
+---
+
 <!-- Add your site or application content here -->
 
 <% artist = data.artists[artist_name] %>
@@ -11,16 +15,16 @@
                     <div class="row">
                         <div class="col-md-4">
                             <% if artist.image_vert_width %>
-                              <img class="artist-image-left" alt="Vertical image of <%= artist.name %>" src="<%= artist.image_vert %>" style="height: <%=artist.image_vert_width %>" />
+                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of ' + artist.name, :style => 'height:' + artist.image_vert_width %>
                             <% elsif artist.image_vert_pad_top %>
-                              <img class="artist-image-left" alt="Vertical image of <%= artist.name %>" src="<%= artist.image_vert %>" style="padding-top: <%=artist.image_vert_pad_top %>" />
-                            <% else %>
-                              <img class="artist-image-left" alt="Vertical image of <%= artist.name %>" src="<%= artist.image_vert %>" />
+                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of' + artist.name,  :style => 'padding-top:' + artist.image_vert_pad_top %>
+                              <% else %>
+                              <%= image_tag artist.image_vert, :class=> 'artist-image-left', :alt => 'Vertical image of' + artist.name %>
                             <% end %>
                         </div>
                         <div class="col-md-8">
-                            <img class="artist-image-right" alt="Horizontal image of <%= artist.name %>" src="<%= artist.image_horz_1 %>"/>
-                            <img class="artist-image-right" alt="Horizontal image of <%= artist.name %>" src="<%= artist.image_horz_2 %>"/>
+                            <%= image_tag artist.image_horz_1, :class => 'artist-image-right', :alt => 'Horizontal image of' + artist.name %>
+                            <%= image_tag artist.image_horz_2, :class => 'artist-image-right', :alt => 'Horizontal image of' + artist.name %>
                         </div>
                     </div>
                 </div>
@@ -32,7 +36,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="<%= artist.release.image_sm %>" alt="<%= artist.release.image_alt %>" style="width: 128px;">
+                                <%= image_tag artist.release.image_sm, :class => 'meida-object', :alt => artist.release.image_alt, :style => "width: 123px" %>
                             </a>
                         </div>
                         <div class="media-body">
@@ -63,7 +67,7 @@
                 <h2>Releases</h2>
                 <div class="releases">
                     <div class="release">
-                        <img src="<%= artist.release.image_sm %>" alt="<%= artist.release.image_alt %>" />
+                        <%= image_tag artist.release.image_sm, :alt => artist.release.image_alt %>
                         <div class="release-formats">
                             <button type="button" class="btn btn-block buy">Buy</button>
                         </div>
@@ -81,7 +85,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h2 class="release-title"><%= artist.name %> - <span class="release-title-format"><span></h2>
-                    <img class="release-full-size-img img-responsive" src="<%= artist.release.image_sm %>" alt="<%= artist.release.image_alt %>" />
+                    <%= image_tag artist.release.image_sm, :class => 'release-full-size-img img-responsive', :alt => artist.release.image_alt %>
                     <div class="release-price"></div>
                     <div class="release-purchase"></div>
                 </div>

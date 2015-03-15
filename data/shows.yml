@@ -1,17 +1,5 @@
 upcoming_events:
   - show:
-      - date: Sunday, March 1
-        artists: George Sand, Devon Sproule, Erin Durant
-        location: "@ Jalopy - Brooklyn, NY"
-        location_link: http://www.jalopy.biz
-        tag: 'george-sand'
-  - show:
-      - date: Saturday, March 7
-        artists: Hairy Sands, Bay Uno, Serena Jean
-        location: "@ The Living Room - Williamsburg, Brooklyn"
-        location_link: http://www.livingroomny.com/event/2015-03-07/hairy-sands
-        tag: 'hairy-sands'
-  - show:
       - date: Thursday, April 23rd
         artists: George Sand, The Scene is Now, Rachel Trachtenburg, and Luscious Skin
         location: "@ Cake Shop - Manhattan, NY"
@@ -69,6 +57,11 @@ past_events:
               - support: Reg Bloor (Glenn Branca Ensemble), Greasy Grass (Pure Horsehair), and Rachel Trachtenburg
               - location: "@ Bohemian Grove"
 
+          - show:
+              - date: Sunday, March 1
+              - support: Devon Sproule, Erin Durant
+              - location: "@ Jalopy - Brooklyn, NY"
+                
           - show:
             - date: Thursday Dec 4, 2014
             - support: with Adam Evald, Iola
@@ -166,6 +159,10 @@ past_events:
               
       - name: "Hairy Sands"
       - shows:
+          - show:
+              - date: Saturday, March 7
+              - support: Bay Uno, Serena Jean
+              - location: "@ The Living Room - Williamsburg, Brooklyn"
           - show:
               - date: Tuesday, Jan 13 
               - support: People, George Sand, AAware

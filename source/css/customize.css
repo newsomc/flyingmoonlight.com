@@ -110,3 +110,21 @@ h4 {
     background: none;
   }
 }
+
+.container-email {
+    display: table;
+    vertical-align: middle;
+}
+.vertical-center-row-email {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.email-row {
+    padding-top: 150px;
+}
+
+.contact-email {
+
+    font-size: 30px;
+}

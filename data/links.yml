@@ -1,32 +1,16 @@
 section_one:
-  - title: Artists
+  - title: Finding Flying Moonlight Releases
     links:
-      - name: George Sand
-        href: https://georgesand.bandcamp.com
-      - name: Hairy Sands
-        href: https://hairysands.bandcamp.com
-      - name: Ed Askew Band
-        href: https://edaskew.bandcamp.com
-      - name: Tim Kuhl
-        href: http://timkuhl1.bandcamp.com
-      - name: lefty | bones
-        href: https://soundcloud.com/leftybones
-      - name: Fragile Gang
-        href: https://fragilegang.bandcamp.com
-      - name: Hello Lovers
-        href: https://hellolovers.bandcamp.com
-      - name: Steve Lemercier
-        href: https://soundcloud.com/lemercier
-      - name: Inees
-        href: https://soundcloud.com/racontepas
-      - name: Charlene Darling
-        href: https://soundcloud.com/charleene-darling
-      - name: Kid Congo and the Pink Monkey Birds
-        href: http://kidcongopowers.blogspot.com
-      - name: People
-        href: https://www.youtube.com/watch?v=8T-8jcTeMFc
-      - name: Peter Kerlin Octet
-        href: http://blog.thebulk.net/?portfolio=octet
+      - name: Record Grouch - Brooklyn
+      - href: http://recordgrouch.blogspot.com
+      - name: Earwax Records - Brooklyn
+      - href: http://www.earwaxrecords.net
+      - name: CO-OP 87 - Brooklyn
+      - href: https://www.facebook.com/coop87records
+      - name: Discos Paradisio - Barcelona
+      - href: https://www.facebook.com/pages/Discos-Paradiso/348947805132856
+      - name: Other Music - Manhattan
+        href: http://www.othermusic.com/
         
   - title: Friends
     links:
@@ -40,8 +24,7 @@ section_one:
         href: www.ericrecords.com
       - name: Albert Mestres Portavella
         href: http://fressaent.blogspot.com/
-
-section_two:
+        
   - title: Studios & Recordists
     links:
       - name: Vacation Island Studios
@@ -52,10 +35,46 @@ section_two:
         href: http://tapeop.com/reviews/gear/by/steve-silverstein/
       - name: Vibromonk
         href: http://www.vibromonk.com
-      
-  - title: Other labels
+      - name: Chicago Mastering Service
+        href: http://www.chicagomasteringservice.com
+        
+section_two:    
+  - title: Artists
+    links:
+      - name: George Sand
+        href: https://georgesand.bandcamp.com
+      - name: Hairy Sands
+        href: https://hairysands.bandcamp.com
+      - name: Ed Askew Band
+        href: https://edaskew.bandcamp.com
+      - name: Tim Kuhl
+        href: http://timkuhl1.bandcamp.com
+      - name: Fragile Gang
+        href: https://fragilegang.bandcamp.com
+      - name: Hello Lovers
+        href: https://hellolovers.bandcamp.com
+      - name: Steve Lemercier
+        href: https://soundcloud.com/lemercier
+      - name: Rose Mercie
+        href: https://soundcloud.com/racontepas
+      - name: Kid Congo and the Pink Monkey Birds
+        href: http://kidcongopowers.blogspot.com
+      - name: People
+        href: https://www.youtube.com/watch?v=8T-8jcTeMFc
+      - name: Peter Kerlin Octet
+        href: http://blog.thebulk.net/?portfolio=octet
+      - name: Bay Uno
+        href: http://bayuno.com
+      - name: lefty | bones
+        href: https://soundcloud.com/leftybones
+      - name: native/naive
+        href: https://soundcloud.com/flyingmoonlight/sets/nativenaive
+          
+  - title: Labels
     links:
       - name: Unseen Worlds
         href: http://www.unseenworlds.net
       - name: Tin Angel
         href: http://www.tinangelrecords.co.uk
+      - name: Sixgunlover Records
+        href: http://www.sixgunlover.com

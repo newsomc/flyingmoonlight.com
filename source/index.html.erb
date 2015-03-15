@@ -31,9 +31,9 @@ title: Flying Moonlight Records
                         <% Dir.entries("source/img/marketing").select {|f| !File.directory? f}.each_with_index do |file, index| %>
                           <% if index == 0 %><div class="item active"><% else %> <div class="item"><% end %>
                             <img src="img/marketing/<%= file %>" alt="">
-                            <div class="carousel-caption">
-                                Flying Moonlight 1
-                            </div>
+                            <!-- <div class="carousel-caption"> -->
+                            <!--     Flying Moonlight 1 -->
+                            <!-- </div> -->
                           </div>
                         <% end %>
                     </div>
@@ -41,18 +41,13 @@ title: Flying Moonlight Records
             </div>
             <div class="media">
                 <h1> News </h1>
-                <div class="media-body">
-                    <h4 class="media-heading">Middle aligned media</h4>
-                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-                <hr>
-                <div class="media-body">
-                    <h4 class="media-heading">Second story</h4>
-                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-
+                <% data.news.each do |story| %>
+                  <div class="media-body">
+                    <h4 class="media-heading"> <%= story.title %> </h4>
+                    <p><%= story.body %></p>
+                  </div>
+                  <hr>
+                <% end %>
             </div>
             <div>
                 <div>
