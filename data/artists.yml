@@ -77,7 +77,7 @@ hairy-sands:
   image_vert_pad_top: "12px"
   image_horz_1: "img/artists/hairy-sands/HairySands-Head-Shot-sm.jpg"
   image_horz_2: "img/artists/hairy-sands/HairySands-Live-Solarized.jpg"
-  featured_video: "<iframe src='https://www.youtube.com/embed/kpr7iRr8Bbo' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+  featured_video: "<iframe width='500' height='281' src='https://www.youtube.com/embed/Twe07e1pOfA' frameborder='0' allowfullscreen></iframe>"
   release:
     title: "Tears"
     image_sm: "img/releases/fm001/HairySands-Tears-sm.jpg"

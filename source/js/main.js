@@ -9,12 +9,8 @@ $( document ).ready(function() {
     var random = Math.floor(Math.random() * $('.photo-row').length);
     $('.photo-row').hide().eq(random).show();
   };
-  
-  var init = function() {
-    randomPhoto();
-  };
-  
-  init();
+
+  //randomPhoto();
   
   $('.buy').click(function () {
     $('#release-modal').modal('show');
