@@ -67,7 +67,7 @@ title: Flying Moonlight Records
 
             <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
                 <div>
-                    <img class="right-bar-logo" src="img/FMLogo_200.png" alt="FM Logo"/>
+                    <%= partial(:featured_releases) %>
                 </div>
                 <div>
                     <h2>Shows</h2>
@@ -87,6 +87,9 @@ title: Flying Moonlight Records
                         <% end %>
                     </ul>
                     <% end %>
+                </div>
+                <div>
+                    <img class="right-bar-logo" src="img/FMLogo_200.png" alt="FM Logo"/>
                 </div>
             </div><!--/.sidebar-offcanvas-->
         </div><!--/row-->

@@ -333,7 +333,7 @@ body > .container {
 
 .post-thumbnails li {
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     margin-bottom: 3px;
 }
 
@@ -344,7 +344,7 @@ body > .container {
 /* Main Page
 ---------------------------------------------------*/
 .right-bar-logo {
-    width: 263px;
+    width: 100%;
 }
 
 .right-bar-shows

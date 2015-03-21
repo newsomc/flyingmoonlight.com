@@ -76,8 +76,6 @@ def get_media_for_tag(client, tag)
   tags = client.tag_search(tag)
   
   images = {
-    'name' =>  tags[0].name,
-    'count' => tags[0].media_count,
     'urls' => []
   }
   
@@ -110,7 +108,6 @@ end
 
 def photos_yml_file(images)
   require 'yaml'
-  
   File.open('data/photos.yml', 'a') {|f| f.write images.to_yaml }
 end 
 

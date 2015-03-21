@@ -132,3 +132,28 @@ h4 {
 .photo-row {
     margin-top: 15px;
 }
+
+.featured-releases {
+    height: 300px;
+
+}
+
+.featured-release {
+    list-style-type: none;    
+}
+
+.featured-release img {
+    border: 1px solid #acacac;
+    width: 75%;
+}
+
+.buy-release {
+   background-color: #e1a938;
+   text-align: center;
+   width: 75%;
+   margin: 10px 0 10px 0;
+   padding: 0;
+   border: 1px solid #b2801b;
+   border-radius: 0;
+   font-size: 19px;
+}

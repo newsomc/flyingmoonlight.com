@@ -1,0 +1,10 @@
+<ul id="featured-releases">
+<% data.releases.each do |r| %>
+  <li class="featured-release">
+      <%= image_tag r.release.image_sm, :alt => r.release.image_alt %>
+      <div class="release-formats">
+          <button type="button" class="btn btn-block buy-release"> Buy </button>
+      </div>
+  </li>
+<% end %>
+</ul>
