@@ -60,6 +60,7 @@ title: Flying Moonlight Records | data.artists[artist_name]
                 <% if artist.bio.played_with %>
                   <div class="artist-bio"> <%= artist.bio.played_with %> </div>
                 <% end %>
+                <%= partial(:artist_instagram_photos, :locals => {:aname =>  artist_name.gsub(/-/, '_') }) %>
             </div>
         </div>
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
@@ -85,7 +86,7 @@ title: Flying Moonlight Records | data.artists[artist_name]
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h2 class="release-title"><%= artist.name %> - <span class="release-title-format"><span></h2>
-                    <%= image_tag artist.release.image_sm, :class => 'release-full-size-img img-responsive', :alt => artist.release.image_alt %>
+                    <%= image_tag artist.release.image_lg, :class => 'release-full-size-img img-responsive', :alt => artist.release.image_alt %>
                     <div class="release-price"></div>
                     <div class="release-purchase"></div>
                 </div>

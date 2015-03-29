@@ -1,15 +1,92 @@
 - release:
-    title: "Tears"
+    artist_name: "Hairy Sands"
+    release_key: "fm001"
+    title: Tears
     image_sm: "img/releases/fm001/HairySands-Tears-sm.jpg"
     image_lg: "img/releases/fm001/HairySands-Tears.jpg"
     image_alt: "Hairy Sands - Tears"    
     description: "The description of Tears."
     description_sm: "9 Song LP. Recorded 2014."
+    tracks:
+      - track:
+          title: "Run"
+          time: "2:23"
+      - track:
+          title: "More"
+          time: "3:59"
+      - track:
+          title: "The Swim"
+          time: "4:35"
+      - track:
+          title: "Life in the Trees"
+          time: "3:32"
+      - track:
+          title: "New Life"
+          time: "4:42"
+      - track:
+          title: "Venus"
+          time: "3:03"
+      - track:
+          title: "Brother"
+          time: "2:29"
+      - track:
+          title: "We were Right"
+          time: "3:47"
+      - track:
+          title: "Luminous Mess"
+          time: "4:39"
+    formats:
+      - format:
+          description: "Tears - 180 gram Vinyl LP"
+          value: "vinyl"
+          price: "$16.00"
+
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Tears"
+      amount: "16.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
 
 - release:
-    title: "Caroline"
+    artist_name: "George Sand"
+    release_key: "fm002"
+    title: Caroline
     image_sm: "img/releases/fm002/GeorgeSand-Caroline-sm.jpg"
     image_lg: "img/releases/fm002/GeorgeSand-Caroline.jpg"
     image_alt: "George Sand - Caroline"    
     description: "The 'Caroline EP' is a paean to a New York City life, it is a modern hymn of devotion to literary humans - Antonia Shimerda, Moses, Gwendolyn Harleth & Daniel Deronda. The three songs are the first G.S. tunes written with the full band in mind and strive to be open-ended with sudden shifts and continuous harmony."
     description_sm: "3 Song EP. Recorded Summer 2014."
+    tracks:
+      - track:
+          title: "AVENUE B."
+          time: "4:36"
+      - track:
+          title: "2 A.M."
+          time: "8:07"
+      - track:
+          title: "CAROLINE"
+          time: "6:22"
+    formats:
+      - format:
+          description: "Caroline - Vinyl EP"
+          value: "vinyl"
+          price: "$7.00"
+      - format:
+          description: "Caroline - Cassette EP"
+          value: "cassette"
+          price: "$4.00"
+      - format:
+          description: "Caroline -  Vinyl & Cassette EP"
+          value: "cassette-and-vinyl"
+          price: "$10.00"
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Caroline"
+      amount: "7.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
