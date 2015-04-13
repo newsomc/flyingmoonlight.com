@@ -1,5 +1,10 @@
 upcoming_events:
   - show:
+      - date: Tuesday, April 21st
+        artists: Lefty Bones, Love as Laughter, August Wells
+        location: "@ Union Pool - Williamsburg, Brooklyn"
+        location_link: http://union-pool.com
+  - show:
       - date: Thursday, April 23rd
         artists: George Sand, The Scene is Now, Rachel Trachtenburg, and Luscious Skin
         location: "@ Cake Shop - Manhattan, NY"

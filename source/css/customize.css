@@ -133,13 +133,12 @@ h4 {
     margin-top: 15px;
 }
 
-.featured-releases {
-    height: 300px;
-
+#featured-releases {
+    padding: 0px;
 }
 
 .featured-release {
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 .featured-release img {

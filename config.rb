@@ -86,6 +86,15 @@ def get_media_for_tag(client, tag)
   images
 end   
 
+def get_media_for_user(client)
+  user = 'jaypluck@gmail.com'
+  images = Array.new
+  for media_item in client.user_recent_media
+    images << media_item.images.thumbnail.url
+  end
+  images
+end 
+
 def get_instagram_photos()
   require 'instagram'
   

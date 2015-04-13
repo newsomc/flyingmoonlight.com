@@ -53,10 +53,14 @@
         <script id="posts" type="text/template">
             <div class="container">
                 {{ _.each(posts, function(post, post_key, list) { }}
+                   {{console.log(post)}}
                   <div>
-                    <h1> {{= post["regular-title"] }} </h1>
+                    <h1> {{n= post["regular-title"] }} </h1>
                     <h2> {{= post["date"].replace(/\d\d:\d\d:\d\d/, '').trim()  }} </h2>
-                    <p> {{= post["regular-body"] }} </p>
+                    <p> <a href="{{= post['link-url'] }}">{{= post['link-text']}}</a>
+                    <p>{{= post["video-player-500"] }}</p>
+                    <p>{{= post["video-caption"] }}</p>
+                    <p>{{= post["regular-body"] }} </p>
                   </div>
                   <div>
                       {{ if (!_.isEmpty(post['photo-url-500'])) }}
@@ -72,6 +76,7 @@
                                 <img src="{{= photo['photo-url-250'] }}" class="photo-thumb" data-post-key="{{= post_key }}" data-image-500="{{= photo['photo-url-500'] }}"/>
                             </li>
                             {{ }); }}
+                            {{= post['photo-caption']}}
                         </ul>
                   </div>
                  {{ }); }}
