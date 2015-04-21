@@ -35,7 +35,7 @@ page "links.html.erb", :layout => false
 page "contact.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
-["george-sand", "hairy-sands"].each do |name|
+["tim-kuhl", "george-sand", "hairy-sands"].each do |name|
   proxy "/artists/#{name}.html", "/artist.html", :locals => { :artist_name => name }, :ignore => true
 end
 
