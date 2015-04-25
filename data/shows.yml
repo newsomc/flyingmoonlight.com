@@ -1,16 +1,11 @@
 upcoming_events:
   - show:
-      - date: Tuesday, April 21st
-        artists: Lefty Bones, Love as Laughter, August Wells
-        location: "@ Union Pool - Williamsburg, Brooklyn"
-        location_link: http://union-pool.com
-  - show:
-      - date: Thursday, April 23rd
-        artists: George Sand, The Scene is Now, Rachel Trachtenburg, and Luscious Skin
-        location: "@ Cake Shop - Manhattan, NY"
-        location_link: http://cake-shop.com
-        tag: 'george-sand'
-
+      - date: Wednesday, April 29th 
+        artists: "Tim Kuhl's St. Helena with special guest Gegory Stovetop"
+        location: "@ Bar LunAtico - Bed-Stuy, Brooklyn"
+        location_link: https://www.facebook.com/events/890644830995186/
+        tag: 'tim-kuhl'
+        
 past_events:
   - artist:
       - name: "George Sand / Hairy Sands / European Tour 2014"
@@ -54,9 +49,21 @@ past_events:
           - show:
               - date: Monday Nov 3
               - location: "@ CeltiCPuB IsNoTaPuB - Tarbes, France"
+
+      - name: "Lefty Bones"
+      - shows:
+          - show:
+              - date: Tuesday, April 21st
+              - support: Love as Laughter, August Wells
+              - location: "@ Union Pool - Williamsburg, Brooklyn"
                 
       - name: "George Sand"
       - shows:
+          - show:
+              - date: Thursday, April 23rd
+              - support: The Scene is Now, Rachel Trachtenburg, and Luscious Skin
+              - location: "@ Cake Shop - Manhattan, NY"
+                
           - show:
               - date: Friday, Feb 6
               - support: Reg Bloor (Glenn Branca Ensemble), Greasy Grass (Pure Horsehair), and Rachel Trachtenburg

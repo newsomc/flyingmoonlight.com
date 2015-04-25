@@ -18,7 +18,9 @@ title: Flying Moonlight Records | data.artists[artist_name]
                               <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of ' + artist.name, :style => 'height:' + artist.image_vert_width %>
                             <% elsif artist.image_vert_pad_top %>
                               <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of' + artist.name,  :style => 'padding-top:' + artist.image_vert_pad_top %>
-                              <% else %>
+                            <% elsif artist.image_max_width %>
+                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of' + artist.name,  :style => 'max-width:' + artist.image_max_width %>
+                            <% else %>
                               <%= image_tag artist.image_vert, :class=> 'artist-image-left', :alt => 'Vertical image of' + artist.name %>
                             <% end %>
                         </div>
@@ -34,7 +36,7 @@ title: Flying Moonlight Records | data.artists[artist_name]
                     <%= artist.bio.main %>
                 </div>
                 <hr>
-     <% if artist.release %>
+                <% if artist.release %>
                 <div class="recent-release">
                     <div class="media">
                         <div class="media-left">
@@ -49,6 +51,8 @@ title: Flying Moonlight Records | data.artists[artist_name]
                     </div>
                 </div>
                 <hr>
+                <% end %>
+                
                 <h1>Video</h1>
                 <div class="artist-video">
                     <%= artist.featured_video %>
@@ -63,10 +67,14 @@ title: Flying Moonlight Records | data.artists[artist_name]
                 <% if artist.bio.played_with %>
                 <div class="artist-bio"> <%= artist.bio.played_with %> </div>
                 <% end %>
+                
                 <%= partial(:artist_instagram_photos, :locals => {:aname =>  artist_name.gsub(/-/, '_') }) %>
+                
+                <!-- put instagram photos back --->
+                
             </div>
         </div>
-        <% end %>
+
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
             <% if artist.release %>
             <div>

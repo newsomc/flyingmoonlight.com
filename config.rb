@@ -76,11 +76,16 @@ def get_media_for_tag(client, tag)
   tags = client.tag_search(tag)
   
   images = {
-    'urls' => []
+    'urls' => [],
+    'tim_kuhl' => []
   }
   
   for media_item in client.tag_recent_media(tags[0].name)
     images['urls'] << media_item.images.low_resolution.url
+    
+    if tag === 'timkuhl'
+      images['tim_kuhl'] << media_item.images.low_resolution.url
+    end
   end
   
   images
@@ -108,11 +113,12 @@ def get_instagram_photos()
   tags = [
     'flyingmoonlight',
     'hairysands',
-    'dallasacid'
+    'dallasacid',
+    'timkuhl'
   ]
 
   images = tags.each { |tag| photos_yml_file(get_media_for_tag(client, tag)) }
-
+  
 end 
 
 def photos_yml_file(images)
