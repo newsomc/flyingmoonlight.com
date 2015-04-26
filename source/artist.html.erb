@@ -69,12 +69,10 @@ title: Flying Moonlight Records | data.artists[artist_name]
                 <% end %>
                 
                 <%= partial(:artist_instagram_photos, :locals => {:aname =>  artist_name.gsub(/-/, '_') }) %>
-                
+
                 <!-- put instagram photos back --->
-                
             </div>
         </div>
-
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
             <% if artist.release %>
             <div>
@@ -92,8 +90,8 @@ title: Flying Moonlight Records | data.artists[artist_name]
             <%= partial(:main_sidebar, :locals => {:artist_name => artist_name }) %>
         </div><!--/.sidebar-offcanvas-->
     </div><!--/row-->
-    <% if artist.release %>
     <hr>
+    <% if artist.release %>
     <!-- Modal -->
     <div class="modal fade" id="release-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
