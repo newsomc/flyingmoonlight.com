@@ -5,6 +5,13 @@ bandcamp_embeds:
           - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3980182018/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1332534497/transparent=true/" seamless><a href="http://timkuhl1.bandcamp.com/album/st-helena-2">St. Helena by Tim Kuhl</a></iframe>'
           - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2951318122/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=2776923741/transparent=true/" seamless><a href="http://timkuhl1.bandcamp.com/album/ghost">Ghost by Tim Kuhl</a></iframe>'
           - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2380768666/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://timkuhl1.bandcamp.com/album/doomsayer">Doomsayer by Tim Kuhl</a></iframe>'
+
+  - artist:
+      - name: 'Ed Askew'
+      - tracks:
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=907292637/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=2078842522/transparent=true/" seamless><a href="http://edaskew.bandcamp.com/album/boats-roads">BOATS &amp; ROADS by ED ASKEW</a></iframe>'
+          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=907292637/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=564427415/transparent=true/" seamless><a href="http://edaskew.bandcamp.com/album/boats-roads">BOATS &amp; ROADS by ED ASKEW</a></iframe>'
+
   - artist:
       - name: 'George Sand'
       - tracks:
@@ -22,14 +29,3 @@ bandcamp_embeds:
           - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1982479439/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1333980244/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/sandy-hairs">Sandy Hairs by Hairy Sands</a></iframe>'
           - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1982479439/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1275633442/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/sandy-hairs">Sandy Hairs by Hairy Sands</a></ifrxoame>'
           - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1982479439/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=1275633442/transparent=true/" seamless><a href="http://hairysands.bandcamp.com/album/sandy-hairs">Sandy Hairs by Hairy Sands</a></iframe>'
-  - artist:
-      - name: 'Hello Lovers / AAware'
-      - tracks:
-          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2964909979/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3107023936/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/glorified-3">Glorified by hello lovers</a></iframe>'
-          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2964909979/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=3658801768/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/glorified-3">Glorified by hello lovers</a></iframe>'
-          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3664989162/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/vanity-fair">vanity fair by hello lovers</a></iframe>'
-          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2038970165/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/track=169513173/transparent=true/" seamless><a href="http://hellolovers.bandcamp.com/album/gone-with-the-wind">gone with the wind by hello lovers</a></iframe>'
-  - artist:
-      - name: 'VietNam'
-      - tracks:
-          - '<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=986957178/size=small/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless><a href="http://vietnamtheband.bandcamp.com/track/mama-loi-papa-loi">Mama Loi, Papa Loi by VietNam</a></iframe>'

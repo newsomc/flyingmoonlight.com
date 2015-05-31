@@ -74,6 +74,12 @@ title: Flying Moonlight Records | data.artists[artist_name]
             </div>
         </div>
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+            <% if !artist.release %>
+            <div>
+                <%= image_tag 'img/FMLogo_200.png', :class => 'right-bar-log', :alt => 'FM Logo', :width => '220px' %>
+            </div>
+            <% end %>
+            
             <% if artist.release %>
             <div>
                 <h2>Releases</h2>

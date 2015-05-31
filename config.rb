@@ -35,7 +35,7 @@ page "links.html.erb", :layout => false
 page "contact.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
-["tim-kuhl", "george-sand", "hairy-sands"].each do |name|
+["ed-askew", "tim-kuhl", "george-sand", "hairy-sands"].each do |name|
   proxy "/artists/#{name}.html", "/artist.html", :locals => { :artist_name => name }, :ignore => true
 end
 
@@ -68,26 +68,13 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
-
 ## Build Instagram directory
-
 def get_media_for_tag(client, tag)
-  
   tags = client.tag_search(tag)
-  
-  images = {
-    'urls' => [],
-    'tim_kuhl' => []
-  }
-  
+  images = []
   for media_item in client.tag_recent_media(tags[0].name)
-    images['urls'] << media_item.images.low_resolution.url
-    
-    if tag === 'timkuhl'
-      images['tim_kuhl'] << media_item.images.low_resolution.url
-    end
+    images << media_item.images.low_resolution.url
   end
-  
   images
 end   
 
@@ -112,18 +99,20 @@ def get_instagram_photos()
   
   tags = [
     'flyingmoonlight',
+    'georgesand',
     'hairysands',
     'dallasacid',
-    'timkuhl'
+    'timkuhl',
+    'edaskew'
   ]
 
-  images = tags.each { |tag| photos_yml_file(get_media_for_tag(client, tag)) }
-  
+  images = Hash[tags.map {|tag| [tag, get_media_for_tag(client, tag)]}]
+  photos_yml_file images 
 end 
 
 def photos_yml_file(images)
   require 'yaml'
-  File.open('data/photos.yml', 'a') {|f| f.write images.to_yaml }
+  File.open('data/photos.yml', 'w') {|f| f.write images.to_yaml }
 end 
 
 get_instagram_photos()

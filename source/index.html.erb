@@ -53,13 +53,11 @@ title: Flying Moonlight Records
                 <div>
                     <h2>Flying Moonlight Around the World</h2>
                     <div>
-                        <% data.photos.urls.each_with_index do |photo, index| %>
                         <div class="photo-row row">
-                            <% photo.each do |url| %>
+                            <% data.photos.first['urls'].each do |url| %>
                               <img class="col-md-4 instagram-image" style="width: 32%; height: 32%;" src="<%= url %>"/>
                             <% end %>
                           </div>
-                          <% end %>
                      </div>
                     </div>
                 </div>
