@@ -17,4 +17,4 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Instagram Ruby Client
-gem "instagram", "~> 1.1.3"
+gem "instagram", "~> 1.1.5"

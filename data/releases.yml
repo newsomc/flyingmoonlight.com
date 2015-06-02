@@ -1,4 +1,93 @@
 - release:
+    artist_name: "Tim Kuhl"
+    release_key: "fm003"
+    title: 1982
+    image_sm: "img/releases/fm003/TimKuhl-1982-sm.jpg"
+    image_lg: "img/releases/fm003/TimKuhl-1982.jpg"
+    image_alt: "Tim Kuhl - 1982"    
+    description: ""
+    description_sm: "8 Song LP. Recorded Winter 2015."
+    tracks:
+      - track:
+          title: "First Light"
+          time: "3:11"
+      - track:
+          title: "1982"
+          time: "4:18"
+      - track:
+          title: "Timlessness Highway"
+          time: "3:33"
+      - track:
+          title: "White (k)Night w/ Satomi Matuzaki"
+          time: "3:40"
+      - track:
+          title: "Drive w/ Geoffrey Bankowski"
+          time: "3:55"
+      - track:
+          title: "Endless Rhythm"
+          time: "4:26"
+      - track:
+          title: "Invisible Power w/ Grey McMurray"
+          time: "4:00"
+      - track:
+          title: "Wave (of Dreams)"
+          time: "5:05"
+    formats:
+      - format:
+          description: "1982 - Vinyl EP"
+          value: "vinyl"
+          price: "$10.00"
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "1982"
+      amount: "10.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+
+- release:
+    artist_name: "George Sand"
+    release_key: "fm002"
+    title: Caroline
+    image_sm: "img/releases/fm002/GeorgeSand-Caroline-sm.jpg"
+    image_lg: "img/releases/fm002/GeorgeSand-Caroline.jpg"
+    image_alt: "George Sand - Caroline"    
+    description: "The 'Caroline EP' is a paean to a New York City life, it is a modern hymn of devotion to literary humans - Antonia Shimerda, Moses, Gwendolyn Harleth & Daniel Deronda. The three songs are the first G.S. tunes written with the full band in mind and strive to be open-ended with sudden shifts and continuous harmony."
+    description_sm: "3 Song EP. Recorded Summer 2014."
+    tracks:
+      - track:
+          title: "AVENUE B."
+          time: "4:36"
+      - track:
+          title: "2 A.M."
+          time: "8:07"
+      - track:
+          title: "CAROLINE"
+          time: "6:22"
+    formats:
+      - format:
+          description: "Caroline - Vinyl EP"
+          value: "vinyl"
+          price: "$7.00"
+      - format:
+          description: "Caroline - Cassette EP"
+          value: "cassette"
+          price: "$4.00"
+      - format:
+          description: "Caroline -  Vinyl & Cassette EP"
+          value: "cassette-and-vinyl"
+          price: "$10.00"
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Caroline"
+      amount: "7.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com"
+
+- release:
     artist_name: "Hairy Sands"
     release_key: "fm001"
     title: Tears
@@ -49,93 +138,3 @@
       tax: "0.0"
       shipping: "2.00"
       destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
-
-- release:
-    artist_name: "George Sand"
-    release_key: "fm002"
-    title: Caroline
-    image_sm: "img/releases/fm002/GeorgeSand-Caroline-sm.jpg"
-    image_lg: "img/releases/fm002/GeorgeSand-Caroline.jpg"
-    image_alt: "George Sand - Caroline"    
-    description: "The 'Caroline EP' is a paean to a New York City life, it is a modern hymn of devotion to literary humans - Antonia Shimerda, Moses, Gwendolyn Harleth & Daniel Deronda. The three songs are the first G.S. tunes written with the full band in mind and strive to be open-ended with sudden shifts and continuous harmony."
-    description_sm: "3 Song EP. Recorded Summer 2014."
-    tracks:
-      - track:
-          title: "AVENUE B."
-          time: "4:36"
-      - track:
-          title: "2 A.M."
-          time: "8:07"
-      - track:
-          title: "CAROLINE"
-          time: "6:22"
-    formats:
-      - format:
-          description: "Caroline - Vinyl EP"
-          value: "vinyl"
-          price: "$7.00"
-      - format:
-          description: "Caroline - Cassette EP"
-          value: "cassette"
-          price: "$4.00"
-      - format:
-          description: "Caroline -  Vinyl & Cassette EP"
-          value: "cassette-and-vinyl"
-          price: "$10.00"
-    paypal_button:
-      type: "buynow"
-      host: "http://flyingmoonlight.com"
-      purchase_name: "Caroline"
-      amount: "7.00"
-      tax: "0.0"
-      shipping: "2.00"
-      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
-
-- release:
-    artist_name: "Tim Kuhl"
-    release_key: "fm003"
-    title: 1982
-    image_sm: "img/releases/fm003/TimKuhl-1982-sm.jpg"
-    image_lg: "img/releases/fm003/TimKuhl-1982.jpg"
-    image_alt: "Tim Kuhl - 1982"    
-    description: ""
-    description_sm: "8 Song LP. Recorded Winter 2015."
-    tracks:
-      - track:
-          title: "First Light"
-          time: "3:11"
-      - track:
-          title: "1982"
-          time: "4:18"
-      - track:
-          title: "Timlessness Highway"
-          time: "3:33"
-      - track:
-          title: "White (k)Night w/ Satomi Matuzaki"
-          time: "3:40"
-      - track:
-          title: "Drive w/ Geoffrey Bankowski"
-          time: "3:55"
-      - track:
-          title: "Endless Rhythm"
-          time: "4:26"
-      - track:
-          title: "Invisible Power w/ Grey McMurray"
-          time: "4:00"
-      - track:
-          title: "Wave (of Dreams)"
-          time: "5:05"
-    formats:
-      - format:
-          description: "1982 - Vinyl EP"
-          value: "vinyl"
-          price: "$9.00"
-    paypal_button:
-      type: "buynow"
-      host: "http://flyingmoonlight.com"
-      purchase_name: "1982"
-      amount: "9.00"
-      tax: "0.0"
-      shipping: "2.00"
-      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
-    
