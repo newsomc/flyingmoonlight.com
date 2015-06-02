@@ -90,3 +90,52 @@
       tax: "0.0"
       shipping: "2.00"
       destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+
+- release:
+    artist_name: "Tim Kuhl"
+    release_key: "fm003"
+    title: 1982
+    image_sm: "img/releases/fm003/TimKuhl-1982-sm.jpg"
+    image_lg: "img/releases/fm003/TimKuhl-1982.jpg"
+    image_alt: "Tim Kuhl - 1982"    
+    description: ""
+    description_sm: "8 Song LP. Recorded Winter 2015."
+    tracks:
+      - track:
+          title: "First Light"
+          time: "3:11"
+      - track:
+          title: "1982"
+          time: "4:18"
+      - track:
+          title: "Timlessness Highway"
+          time: "3:33"
+      - track:
+          title: "White (k)Night w/ Satomi Matuzaki"
+          time: "3:40"
+      - track:
+          title: "Drive w/ Geoffrey Bankowski"
+          time: "3:55"
+      - track:
+          title: "Endless Rhythm"
+          time: "4:26"
+      - track:
+          title: "Invisible Power w/ Grey McMurray"
+          time: "4:00"
+      - track:
+          title: "Wave (of Dreams)"
+          time: "5:05"
+    formats:
+      - format:
+          description: "1982 - Vinyl EP"
+          value: "vinyl"
+          price: "$9.00"
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "1982"
+      amount: "9.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+    

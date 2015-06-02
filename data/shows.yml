@@ -1,45 +1,44 @@
 upcoming_events:
-  - show:
-      - date: Wednesday, May 13th, 12am
-        artists: "Tim Kuhl's St. Helena"
-        location: 'Rockwood Music Hall'
-        location_link: 'https://www.facebook.com/events/443598639143402'
-        tag: 'tim-kuhl'
-      
-      - date: Sunday, May 31st, 5pm 
-        artists: "Ed Askew Band, Yva Las Vegass, Pineapple Reality"
-        location: PM to get address
-        location_link: https://www.facebook.com/pineapplereality?fref=ts
-        tag: 'ed-askew'
-                
-      - date: Friday, June 5th, 8pm
-        artists: "George Sand, Erin Duran Pure Horsehair + Andrea Schiavelli"
-        location: "@ Sunview Luncheonette - Greenpoint, Brooklyn"
-        location_link: http://thesunview.org
-        tag: 'george-sand'
-        
-      - date: Saturday, June 6th, 7pm
-        artists: 'Jay Pluck, Garrett Devoe, Bentley Anderson'
-        location: GCA
-        location_link: http://groupclubassociation.tumblr.com/about.html
-        tag: 'george-sand'
-
-      - date: Sunday, June 7th, 7pm
-        artists: "Ed Askew Band, David Greenberg, Julian Cartwright"
-        location: House Show
-        tag: 'ed-askew'
-
-      - date: Tuesday, June 16th, 8pm
-        artists: "Ed Askew Band, Blood Warrior (Greg Jamie), Laura Gibson, Longshoreman"
-        location: Trans Pecos
-        locaiton_link: http://www.thetranspecos.com
-        tag: 'ed-askew'
-          
-      - date: Sunday, July 26th, 8pm
-        artists: "Ed Askew Band and Muyassar Kurdi"
-        location: "@ Ace Hotel - Manhattan, NY"
-        location_link: https://www.acehotel.com/calendar/newyork
-        tag: 'ed-askew'
+  - date: Wednesday, May 13th, 12am
+    artists: "Tim Kuhl's St. Helena"
+    location: 'Rockwood Music Hall'
+    location_link: 'https://www.facebook.com/events/443598639143402'
+    tag: 'tim-kuhl'
+    
+  - date: Sunday, May 31st, 5pm 
+    artists: "Ed Askew Band, Yva Las Vegass, Pineapple Reality"
+    location: PM to get address
+    location_link: https://www.facebook.com/pineapplereality?fref=ts
+    tag: 'ed-askew'
+    
+  - date: Friday, June 5th, 8pm
+    artists: "George Sand, Erin Duran Pure Horsehair + Andrea Schiavelli"
+    location: "@ Sunview Luncheonette - Greenpoint, Brooklyn"
+    location_link: http://thesunview.org
+    tag: 'george-sand'
+    
+  - date: Saturday, June 6th, 7pm
+    artists: 'Jay Pluck, Garrett Devoe, Bentley Anderson'
+    location: "@ GCA"
+    location_link: http://groupclubassociation.tumblr.com/about.html
+    tag: 'george-sand'
+    
+  - date: Sunday, June 7th, 7pm
+    artists: "Ed Askew Band, David Greenberg, Julian Cartwright"
+    location: "@ House Show"
+    tag: 'ed-askew'
+    
+  - date: Tuesday, June 16th, 8pm
+    artists: "Ed Askew Band, Blood Warrior (Greg Jamie), Laura Gibson, Longshoreman"
+    location: "@ Trans Pecos - Bushwick, Brooklyn"
+    locaiton_link: http://www.thetranspecos.com
+    tag: 'ed-askew'
+    
+  - date: Sunday, July 26th, 8pm
+    artists: "Ed Askew Band and Muyassar Kurdi"
+    location: "@ Ace Hotel - Manhattan, NY"
+    location_link: https://www.acehotel.com/calendar/newyork
+    tag: 'ed-askew'
         
 past_events:
   - artist:

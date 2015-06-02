@@ -18,7 +18,7 @@ tim-kuhl:
 <p>As a composer he has released a number of self-produced jazz and experimental records culminating in 2012's St. Helena, which featured an all-star cast of New York music luminaries.  He is presently touring and recording as a full member of Sean Lennon's The GOASTT.</p>"
     detail: "Tim Kuhl spent years immersed in Symphonic, Orchestral, Percussion Ensemble, Jazz Big Band and Small Group, Latin Jazz, Commercial, Jazz Guitar, Theater (Pit Percussion), Modern Classical Composer's Concert. He pursued classical percussion studies with Dale Rauschenberg and Michelle Humphreys and drum set with Jon Seligman. This diverse and ardent work has resulted in a masterful approach to the drum kit. His unique style and respect have made Kuhl an integral part of the Brooklyn music landscape and a transformative part of outfits that span many musical genres beyond jazz, including avant-garde, rock, and songwriter. They have also taken him around the U.S. and to many other countries.</p>
 
-<p>Kuhl's extensive technical ability and what is always a creative, dynamic approach to the kit, never prevent him from searching for the heart of the matter. As he says, if the emotion is there, you can do plenty with one note. This attention to detail and supreme ability to listen, to recognize a feeling in one quiet sound, help explain his interests and evolution as a composer. <a href='https://timkuhl1.bandcamp.com/album/ghost'>Ghost</a> (2008) balanced musicians from the Baltimore scene with that of New York. <a href='https://timkuhl1.bandcamp.com/album/king'>King</a> (2009) brought together two voracious guitarists with contrasting styles to great effect. <a href='https://timkuhl1.bandcamp.com/album/doomsayer'>Doomsayer</a> (2011) explored the threat and genius of musical freedom. And his last album, <a href='https://timkuhl1.bandcamp.com/album/st-helena-2'>St. Helena</a> (2012), values deeply something subtle and even cinematic.</p>
+<p>Kuhl's extensive technical ability and what is always a creative, dynamic approach to the kit, never prevent him from searching for the heart of the matter. As he says, if the emotion is there, you can do plenty with one note. This attention to detail and supreme ability to listen, to recognize a feeling in one quiet sound, help explain his interests and evolution as a composer. <a href='https://timkuhl1.bandcamp.com/album/ghost'>Ghost</a> (2008) balanced musicians from the Baltimore scene with that of New York. xo<a href='https://timkuhl1.bandcamp.com/album/king'>King</a> (2009) brought together two voracious guitarists with contrasting styles to great effect. <a href='https://timkuhl1.bandcamp.com/album/doomsayer'>Doomsayer</a> (2011) explored the threat and genius of musical freedom. And his last album, <a href='https://timkuhl1.bandcamp.com/album/st-helena-2'>St. Helena</a> (2012), values deeply something subtle and even cinematic.</p>
 
 <p><i> \"Drummer-composer Tim Kuhl purveys a mix of earthy groove and spacious, subtly emotive melody.\"</i> - <strong>Time Out NY</strong></p>
 
@@ -28,7 +28,55 @@ tim-kuhl:
   image_vert: "img/artists/tim-kuhl/bw.jpg"
   image_max_width: "820px"
   featured_video: "<iframe width='500' height='281' src='https://www.youtube.com/embed/QLOObAOfUZY' frameborder='0' allowfullscreen></iframe>"
-
+  release:
+    artist_name: "Tim Kuhl"
+    release_key: "fm003"
+    title: 1982
+    image_sm: "img/releases/fm003/TimKuhl-1982-sm.jpg"
+    image_lg: "img/releases/fm003/TimKuhl-1982.jpg"
+    image_alt: "Tim Kuhl - 1982"    
+    description: "<strong>1982</strong> is Tim Kuhl's follow-up effort to 2012's critically acclaimed St. Helena. Composed of sprawling soundscapes and taut electronic production, <strong>1982</strong> was conceived and composed on an iPad while touring the world playing drums with <strong>Sean Lennon's The GOASTT</strong>.  While on a break from traveling, Kuhl brought the songs to co-producer and NYC engineer <strong>Joshua Valleau (WOLVVES, John Legend, etc)</strong>, together they fleshed out the textures and sounds around the compositions.  The album features collaborations with Satomi Matsuzaki (Deerhoof), poet Geoffrey Bankowski, and Grey McMurray."
+    description_sm: "8 Song LP. Recorded Winter 2015."
+    tracks:
+      - track:
+          title: "First Light"
+          time: "3:11"
+      - track:
+          title: "1982"
+          time: "4:18"
+      - track:
+          title: "Timlessness Highway"
+          time: "3:33"
+      - track:
+          title: "White (k)Night w/ Satomi Matuzaki"
+          time: "3:40"
+      - track:
+          title: "Drive w/ Geoffrey Bankowski"
+          time: "3:55"
+      - track:
+          title: "Endless Rhythm"
+          time: "4:26"
+      - track:
+          title: "Invisible Power w/ Grey McMurray"
+          time: "4:00"
+      - track:
+          title: "Wave (of Dreams)"
+          time: "5:05"
+    formats:
+      - format:
+          description: "1982 - Vinyl EP"
+          value: "vinyl"
+          price: "$9.00"
+          
+  paypal_button:
+    type: "buynow"
+    host: "http://flyingmoonlight.com"
+    purchase_name: "1982"
+    amount: "9.00"
+    tax: "0.0"
+    shipping: "2.00"
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+    
 george-sand:
   name: "George Sand"
   bio:
@@ -78,17 +126,13 @@ george-sand:
           description: "Caroline -  Vinyl & Cassette EP"
           value: "cassette-and-vinyl"
           price: "$10.00"
-          
   paypal_button:
     type: "buynow"
-    env: "sandbox"
-    host: "localhost"
     purchase_name: "Caroline"
     amount: "7.00"
     tax: "0.0"
     shipping: "2.00"
     destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
-
     
 hairy-sands:
   name: "Hairy Sands"
@@ -136,17 +180,13 @@ hairy-sands:
       - track:
           title: "Luminous Mess"
           time: "4:39"
-          
     formats:
       - format:
           description: "Tears - 180 gram Vinyl LP"
           value: "vinyl"
           price: "$16.00"
-          
   paypal_button:
     type: "buynow"
-    env: "sandbox"
-    host: "localhost"
     purchase_name: "Tears"
     amount: "16.00"
     tax: "0.0"
