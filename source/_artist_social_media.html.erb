@@ -1,0 +1,14 @@
+<ul id="social-media">
+    <% sm = data.artist_social_media[artist_name] %>
+    <% if sm %>
+      <% if sm['twitter'] %>
+        <li><a href="<%= data.artist_social_media[artist_name]['twitter'] %>" target="_blank"><%= image_tag "social/twitter.png" %></a></li>
+      <% end %>
+      <% if sm['facebook'] %>  
+        <li><a href="<%= data.artist_social_media[artist_name]['facebook'] %> " target="_blank"><%= image_tag "social/facebook.png" %></a></li>
+      <% end %>
+      <% if sm['tumblr'] %>  
+        <li><a href="<%= data.artist_social_media[artist_name]['tumblr'] %> " target="_blank"><%= image_tag "social/tumblr.png" %></a></li>
+      <% end %>
+    <% end %>
+</ul>

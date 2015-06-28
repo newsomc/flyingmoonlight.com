@@ -154,7 +154,7 @@ h4 {
    padding: 0;
    border: 1px solid #b2801b;
    border-radius: 0;
-   font-size: 19px;
+   font-size: 15px;
 }
 
 .instagram-image {
@@ -163,4 +163,19 @@ h4 {
 
 .show-listing {
     margin-bottom: 5px;
+}
+
+.paypal-button .large {
+    margin: auto;
+    display: block;
+}
+
+#social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+#social-media li {
+    display: inline;
+    padding: 3px;
 }

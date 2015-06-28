@@ -9,7 +9,64 @@ ed-askew:
   single_image: true
   image_vert: "img/artists/ed-askew/bw.jpg"
   image_max_width: "720px"
-  featured_video: "<iframe width='420' height='315' src='https://www.youtube.com/embed/YICXSn2i2pU' frameborder='0' allowfullscreen></iframe>"
+  featured_video: "<iframe width='420' height='315' src='https://www.youtube.com/embed/oLfagaG7qMI' frameborder='0' allowfullscreen></iframe>"
+  release:
+    artist_name: "Ed Askew"
+    release_key: "fm004"
+    title: Boats and Roads
+    image_sm: "img/releases/fm004/EdAskew-BoatsAndRoads-sm.jpg"
+    image_lg: "img/releases/fm004/EdAskew-BoatsAndRoads.jpg"
+    image_alt: "Ed Askew - Boats and Roads"
+    description: "Boats and Roads' (1996) is Ed Askew's first self-recorded, self-released cassette of new songs, written and recorded in Washington Heights. This re-issue features the original artwork and also a lost song, Yama, remixed from the 4-track source by Tyler Evans (of Ed Askew band and George Sand). The tape is a beautiful light blue and includes a digital download of the full album. Edition of 250."
+    description_sm: "11 Songs. Originally released in 1996."
+    tracks:
+      - track:
+          title: "Art & Life"
+          time: "5:36"
+      - track:
+          title: "A Modern Romantic"
+          time: "1:45"
+      - track:
+          title: "What does the Dog Mean"
+          time: "2:51"
+      - track:
+          title: "Windy Days"
+          time: "5:45"
+      - track:
+          title: "Real Train"
+          time: "2:57"
+      - track:
+          title: "Starry Streets"
+          time: "4:12"
+      - track:
+          title: "Tom"
+          time: "1:59"
+      - track:
+          title: "Burning Desire"
+          time: "8:55"
+      - track:
+          title: "Friends and Lovers"
+          time: "3:29"
+      - track:
+          title: "Yama"
+          time: "3:08"
+      - track:
+          title: "Hitchhiking"
+          time: "6:57"
+    formats:
+      - format:
+          description: "Boats and Roads - Cassette LP"
+          value: "cassette"
+          price: "$6.00"
+          
+  paypal_button:
+    type: "buynow"
+    host: "http://flyingmoonlight.com"
+    purchase_name: "Boats and Roads"
+    amount: "6.00"
+    tax: "0.0"
+    shipping: "2.00"
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
 
 tim-kuhl:
   name: "Tim Kuhl"
@@ -18,7 +75,7 @@ tim-kuhl:
 <p>As a composer he has released a number of self-produced jazz and experimental records culminating in 2012's St. Helena, which featured an all-star cast of New York music luminaries.  He is presently touring and recording as a full member of Sean Lennon's The GOASTT.</p>"
     detail: "Tim Kuhl spent years immersed in Symphonic, Orchestral, Percussion Ensemble, Jazz Big Band and Small Group, Latin Jazz, Commercial, Jazz Guitar, Theater (Pit Percussion), Modern Classical Composer's Concert. He pursued classical percussion studies with Dale Rauschenberg and Michelle Humphreys and drum set with Jon Seligman. This diverse and ardent work has resulted in a masterful approach to the drum kit. His unique style and respect have made Kuhl an integral part of the Brooklyn music landscape and a transformative part of outfits that span many musical genres beyond jazz, including avant-garde, rock, and songwriter. They have also taken him around the U.S. and to many other countries.</p>
 
-<p>Kuhl's extensive technical ability and what is always a creative, dynamic approach to the kit, never prevent him from searching for the heart of the matter. As he says, if the emotion is there, you can do plenty with one note. This attention to detail and supreme ability to listen, to recognize a feeling in one quiet sound, help explain his interests and evolution as a composer. <a href='https://timkuhl1.bandcamp.com/album/ghost'>Ghost</a> (2008) balanced musicians from the Baltimore scene with that of New York. xo<a href='https://timkuhl1.bandcamp.com/album/king'>King</a> (2009) brought together two voracious guitarists with contrasting styles to great effect. <a href='https://timkuhl1.bandcamp.com/album/doomsayer'>Doomsayer</a> (2011) explored the threat and genius of musical freedom. And his last album, <a href='https://timkuhl1.bandcamp.com/album/st-helena-2'>St. Helena</a> (2012), values deeply something subtle and even cinematic.</p>
+<p>Kuhl's extensive technical ability and what is always a creative, dynamic approach to the kit, never prevent him from searching for the heart of the matter. As he says, if the emotion is there, you can do plenty with one note. This attention to detail and supreme ability to listen, to recognize a feeling in one quiet sound, help explain his interests and evolution as a composer. <a href='https://timkuhl1.bandcamp.com/album/ghost'>Ghost</a> (2008) balanced musicians from the Baltimore scene with that of New York. <a href='https://timkuhl1.bandcamp.com/album/king'>King</a> (2009) brought together two voracious guitarists with contrasting styles to great effect. <a href='https://timkuhl1.bandcamp.com/album/doomsayer'>Doomsayer</a> (2011) explored the threat and genius of musical freedom. And his last album, <a href='https://timkuhl1.bandcamp.com/album/st-helena-2'>St. Helena</a> (2012), values deeply something subtle and even cinematic.</p>
 
 <p><i> \"Drummer-composer Tim Kuhl purveys a mix of earthy groove and spacious, subtly emotive melody.\"</i> - <strong>Time Out NY</strong></p>
 
@@ -48,7 +105,7 @@ tim-kuhl:
           title: "Timlessness Highway"
           time: "3:33"
       - track:
-          title: "White (k)Night w/ Satomi Matuzaki"
+          title: "White (k)Night w/ Satomi Matsuzaki"
           time: "3:40"
       - track:
           title: "Drive w/ Geoffrey Bankowski"
@@ -64,32 +121,27 @@ tim-kuhl:
           time: "5:05"
     formats:
       - format:
-          description: "1982 - Vinyl EP"
+          description: "1982 - Vinyl LP"
           value: "vinyl"
-          price: "$9.00"
+          price: "$15.00"
           
   paypal_button:
     type: "buynow"
     host: "http://flyingmoonlight.com"
     purchase_name: "1982"
-    amount: "9.00"
+    amount: "15.00"
     tax: "0.0"
     shipping: "2.00"
-    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com"
+    
     
 george-sand:
   name: "George Sand"
   bio:
-    main: "<i>'... strange, minimalist keyboard band... Jay Pluck has obviously had some immersion in Philip Glass, there's a hypnotic aspect to this music, but it's more raw and ragged and gently, methodically disquieting. Think of the creepy cinematics of In the Summer House and you'll be on the right track. All of the songs are working subtle, precisely articulated variations on broken chords, with an uneasy, modal melodic sense... (and) feature nebulously ominous guy/girl harmonies.' </i>- <strong>New York Music Daily</strong>"
-    detail: "<p>George Sand is a piano-based art pop band from principle songwriter Jay Pluck (Ed Askew Band, Luke Roberts, IOLA). With Candace Thompson, Kelly Keliher (Nativenaive, Heidi Harris), and Tyler Evans (The Black Swans, Ed Askew Band, Malefactor), G.S. plays regularly in New York City. They are often joined by Michael Durek (PAS, The Use) and Clint Newsom (Hairy Sands, Vietnam).</p>
-<p>Piano, voice, Autoharp, guitar, theremin, and bass comprise most G.S. tunes, which they call modern hymns.</p>
-<p>George Sand toured Europe in support of Caroline EP with labelmates, Hairy Sands. They have been active in NYC for over three years, playing shows with the legendary The Scene is Now, Daniel Carter, Weyes Blood, Reg Bloor, Rachel Trachtenburg, Christy & Emily, Opal Onyx, Bob Bannister and Eartheater, among others.</p>"
-
-    origin: "George Sand began when Jay Pluck and Kelly Keliher started a band with Jeffrey Pratt called Koning's Blauw. K.'s B. moved from idea-driven percussion to evocative songs. After Kelly moved to San Francisco, Candace Thompson applied her interest in Appalachian-style singing. Michael Durek and Julia Violet helped Jay P. with his long-song project after the end of K's B. This became George Sand -- happily, Candace and Jay again started working together in earnest and Jay's bandmate in Ed Askew Band, Tyler Evans, began to make heady contributions."
-
-    played_with: "<p>George Sand has played consistently in NYC for over two years, touring the east coast and also going to Berlin three times. G.S. also toured France, Spain, and Germany with labelmates, Hairy Sands.</p> 
-
-<p>During this time, G.S. has played with the legendary The Scene is Now, Ed Askew, Daniel Carter & Federico Ughi, Neal Morgan, Weyes Blood, Reg Bloor, Christy & Emily, Baby Copperhead, Trummors, Rachel Trachtenburg, Pure Horsehair, Eartheater, Opal Onyx, Hearsay & Hyperbole, Bob Bannister, Vaudeville, Faten Kanaan, Steev Lemercier, Hallo, The Neighbors, Strawberry Hands, Abhay Singh & Friends, Lazurite, Glass Anchors, Hello Lovers, Doom Trumpet, Hunter Simpson, Psychic Lines, Virginia Plain, Luscious Skin, Strange Walls, The Sparrow, Woodsy Pride, and Heroes of Toolik (Evans Wolforth of Glenn Branca Ensemble, Ernie Brooks of Modern Lovers, Billy Ficca of Television). </p>"
+    main: ""
+    detail: ""
+    origin: ""
+    played_with: "<p>George Sand has played consistently in NYC for over two years, touring the east coast and also going to Berlin three times. G.S. also toured France, Spain, and Germany with labelmates, Hairy Sands.</p>"
 
   image_vert: "img/artists/george-sand/GeorgeSand-berlin.jpg"
   image_vert_width: "500px"
@@ -192,3 +244,16 @@ hairy-sands:
     tax: "0.0"
     shipping: "2.00"
     destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+
+
+# George Sand
+#     main: "<i>'... strange, minimalist keyboard band... Jay Pluck has obviously had some immersion in Philip Glass, there's a hypnotic aspect to this music, but it's more raw and ragged and gently, methodically disquieting. Think of the creepy cinematics of In the Summer House and you'll be on the right track. All of the songs are working subtle, precisely articulated variations on broken chords, with an uneasy, modal melodic sense... (and) feature nebulously ominous guy/girl harmonies.' </i>- <strong>New York Music Daily</strong>"
+#     detail: "<p>George Sand is a piano-based art pop band from principle songwriter Jay Pluck (Ed Askew Band, Luke Roberts, IOLA). With Candace Thompson, Kelly Keliher (Nativenaive, Heidi Harris), and Tyler Evans (The Black Swans, Ed Askew Band, Malefactor), G.S. plays regularly in New York City. They are often joined by Michael Durek (PAS, The Use) and Clint Newsom (Hairy Sands, Vietnam).</p>
+# <p>Piano, voice, Autoharp, guitar, theremin, and bass comprise most G.S. tunes, which they call modern hymns.</p>
+# <p>George Sand toured Europe in support of Caroline EP with labelmates, Hairy Sands. They have been active in NYC for over three years, playing shows with the legendary The Scene is Now, Daniel Carter, Weyes Blood, Reg Bloor, Rachel Trachtenburg, Christy & Emily, Opal Onyx, Bob Bannister and Eartheater, among others.</p>"
+
+#     origin: "George Sand began when Jay Pluck and Kelly Keliher started a band with Jeffrey Pratt called Koning's Blauw. K.'s B. moved from idea-driven percussion to evocative songs. After Kelly moved to San Francisco, Candace Thompson applied her interest in Appalachian-style singing. Michael Durek and Julia Violet helped Jay P. with his long-song project after the end of K's B. This became George Sand -- happily, Candace and Jay again started working together in earnest and Jay's bandmate in Ed Askew Band, Tyler Evans, began to make heady contributions."
+
+#     played_with: "<p>George Sand has played consistently in NYC for over two years, touring the east coast and also going to Berlin three times. G.S. also toured France, Spain, and Germany with labelmates, Hairy Sands.</p> 
+
+# <p>During this time, G.S. has played with the legendary The Scene is Now, Ed Askew, Daniel Carter & Federico Ughi, Neal Morgan, Weyes Blood, Reg Bloor, Christy & Emily, Baby Copperhead, Trummors, Rachel Trachtenburg, Pure Horsehair, Eartheater, Opal Onyx, Hearsay & Hyperbole, Bob Bannister, Vaudeville, Faten Kanaan, Steev Lemercier, Hallo, The Neighbors, Strawberry Hands, Abhay Singh & Friends, Lazurite, Glass Anchors, Hello Lovers, Doom Trumpet, Hunter Simpson, Psychic Lines, Virginia Plain, Luscious Skin, Strange Walls, The Sparrow, Woodsy Pride, and Heroes of Toolik (Evans Wolforth of Glenn Branca Ensemble, Ernie Brooks of Modern Lovers, Billy Ficca of Television). </p>"

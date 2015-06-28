@@ -1,4 +1,62 @@
 - release:
+    artist_name: "Ed Askew"
+    release_key: "fm004"
+    title: Boats and Roads
+    image_sm: "img/releases/fm004/EdAskew-BoatsAndRoads-sm.jpg"
+    image_lg: "img/releases/fm004/EdAskew-BoatsAndRoads.jpg"
+    image_alt: "Ed Askew - Boats and Roads"    
+    description: ""
+    description_sm: "11 Songs. Originally released in 1996."
+    tracks:
+      - track:
+          title: "Art & Life"
+          time: "5:36"
+      - track:
+          title: "A Modern Romantic"
+          time: "1:45"
+      - track:
+          title: "What does the Dog Mean"
+          time: "2:51"
+      - track:
+          title: "Windy Days"
+          time: "5:45"
+      - track:
+          title: "Real Train"
+          time: "2:57"
+      - track:
+          title: "Starry Streets"
+          time: "4:12"
+      - track:
+          title: "Tom"
+          time: "1:59"
+      - track:
+          title: "Burning Desire"
+          time: "8:55"
+      - track:
+          title: "Friends and Lovers"
+          time: "3:29"
+      - track:
+          title: "Yama"
+          time: "3:08"
+      - track:
+          title: "Hitchhiking"
+          time: "6:57"
+          
+    formats:
+      - format:
+          description: "Boats and Roads - Cassette LP"
+          value: "cassette"
+          price: "$6.00"
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Boats and Roads"
+      amount: "6.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+
+- release:
     artist_name: "Tim Kuhl"
     release_key: "fm003"
     title: 1982
@@ -18,7 +76,7 @@
           title: "Timlessness Highway"
           time: "3:33"
       - track:
-          title: "White (k)Night w/ Satomi Matuzaki"
+          title: "White (k)Night w/ Satomi Matsuzaki"
           time: "3:40"
       - track:
           title: "Drive w/ Geoffrey Bankowski"
@@ -34,7 +92,7 @@
           time: "5:05"
     formats:
       - format:
-          description: "1982 - Vinyl EP"
+          description: "1982 - Vinyl LP"
           value: "vinyl"
           price: "$10.00"
     paypal_button:

@@ -33,6 +33,7 @@ page "about.html.erb", :layout => false
 page "live.html.erb", :layout => false
 page "links.html.erb", :layout => false
 page "contact.html.erb", :layout => false
+page "preorder.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
 ["ed-askew", "tim-kuhl", "george-sand", "hairy-sands"].each do |name|
@@ -115,7 +116,7 @@ def photos_yml_file(images)
   File.open('data/photos.yml', 'w') {|f| f.write images.to_yaml }
 end 
 
-get_instagram_photos()
+# get_instagram_photos()
 
 
 # Build-specific configuration

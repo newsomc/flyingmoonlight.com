@@ -449,3 +449,9 @@ body > .container {
     text-align: center;
 }
 
+#preorder-price {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+

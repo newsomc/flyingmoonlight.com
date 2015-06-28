@@ -1,5 +1,5 @@
 ---
-title: Flying Moonlight Records | data.artists[artist_name]
+title: Flying Moonlight Records 
 ---
 
 <!-- Add your site or application content here -->
@@ -87,13 +87,14 @@ title: Flying Moonlight Records | data.artists[artist_name]
                     <div class="release">
                         <%= image_tag artist.release.image_sm, :alt => artist.release.image_alt %>
                         <div class="release-formats">
-                            <button type="button" class="btn btn-block buy">Buy</button>
+                            <button type="button" class="btn btn-block buy">order album</button>
                         </div>
                     </div>
                 </div>
             </div>
             <% end %>
             <%= partial(:main_sidebar, :locals => {:artist_name => artist_name }) %>
+            <%= partial(:artist_social_media, :locals => {:artist_name => artist_name }) %>
         </div><!--/.sidebar-offcanvas-->
     </div><!--/row-->
     <hr>
@@ -104,19 +105,39 @@ title: Flying Moonlight Records | data.artists[artist_name]
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h2 class="release-title"><%= artist.name %> - <span class="release-title-format"><span></h2>
+                    <h2 class="release-title">
+                        <%= artist.name %> - <span class="release-title-format"><span>
+                                <span class="release-title-format"><%= artist.release.formats.first.format.description %><span>
+                    </h2>
                     <%= image_tag artist.release.image_lg, :class => 'release-full-size-img img-responsive', :alt => artist.release.image_alt %>
-                    <div class="release-price"></div>
+                    <div class="release-price"><%= artist.release.formats.first.format.price %></div>
                     <div class="release-purchase"></div>
                 </div>
                 <div class="modal-body">
                     <div class="release-description"><%= artist.release.description_sm %></div>
+
+                    <div>
+                    <% button = artist.paypal_button %>
+                    <script id="test-button" async="async" src="<%= button.destination %>"
+                            data-button="<%= button.type %>" 
+                            data-name="<%= button.purchase_name %>" 
+                            data-amount="<%= button.amount %>" 
+                            data-shipping="<%= button.shipping %>" 
+                            data-tax="<%= button.tax %>" 
+                            data-callback="<%= button.host %>" 
+                            data-env="<%= button.env %>"
+                            ></script>
+                    </div>
+                    
+                    <% if artist.release.formats.count > 1 %>
                     <select class="modal-selectpicker">
-                        <% artist.release.formats.each_with_index do |r, index| %>
-                          <% v = r.format.value.gsub('-', ' ').titleize %>
-                          <option value="<%= r.format.value %>" data-description="<%= r.format.description %>" data-price="<%= r.format.price %>"><%= v %></option>
+                        <% artist.release.formats.each_with_index do |rr, index| %>
+                        <% v = rr.format.value.gsub('-', ' ').titleize %>
+                        <option value="<%= rr.format.value %>" data-description="<%= rr.format.description %>" data-price="<%= rr.format.price %>"><%= v %></option>
                         <% end %>
                     </select>
+                    <% end %>
+                    
                 </div>
                 <table class="table table-striped">
                     <thead>
@@ -137,16 +158,6 @@ title: Flying Moonlight Records | data.artists[artist_name]
                     </tbody>
                 </table>
                 <div class="modal-footer">
-                    <% button = artist.paypal_button %>
-                    <script id="test-button" async="async" src="<%= button.destination %>"
-                            data-button="<%= button.type %>" 
-                            data-name="<%= button.purchase_name %>" 
-                            data-amount="<%= button.amount %>" 
-                            data-shipping="<%= button.shipping %>" 
-                            data-tax="<%= button.tax %>" 
-                            data-callback="<%= button.host %>" 
-                            data-env="<%= button.env %>"
-                            ></script>
                 </div>
             </div>
         </div>

@@ -10,8 +10,6 @@ $( document ).ready(function() {
         $('.photo-row').hide().eq(random).show();
     };
     
-    //randomPhoto();
-    
     $('.buy').click(function () {
         $('#release-modal').modal('show');
         $('.release-title-format').html(
@@ -22,11 +20,7 @@ $( document ).ready(function() {
     $('.buy-release').click(function () {
         var releaseKey = $(this).data('release-id');
         $('#release-modal-' + releaseKey).modal('show');
-        $('.release-title-format').html(
-            $(".modal-selectpicker option:first").data('description')
-        );
     });
-    
     
     $('.modal-selectpicker').selectpicker().change(function () {
         var $format = $(this).val(),

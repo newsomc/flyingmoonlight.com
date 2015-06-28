@@ -5,13 +5,26 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="release-title"><%= r.release.artist_name %> - <span class="release-title-format"><span></h2>
+                <h2 class="release-title"><%= r.release.artist_name %> - <span class="release-title-format"><%= r.release.formats.first.format.description %><span></h2>
                 <%= image_tag r.release.image_lg, :class => 'release-full-size-img img-responsive', :alt => r.release.image_alt %>
-                <div class="release-price"></div>
+                <div class="release-price"><%= r.release.formats.first.format.price %></div>
                 <div class="release-purchase"></div>
             </div>
             <div class="modal-body">
                 <div class="release-description"><%= r.release.description_sm %></div>
+
+                <div>
+                <% button = r.release.paypal_button %>
+                <script id="test-button" async="async" src="<%= button.destination %>"
+                        data-button="<%= button.type %>" 
+                        data-name="<%= button.purchase_name %>" 
+                        data-amount="<%= button.amount %>" 
+                        data-shipping="<%= button.shipping %>" 
+                        data-tax="<%= button.tax %>" 
+                        data-callback="<%= button.host %>" 
+                        ></script>
+                </div>
+                
                 <% if r.release.formats.count > 1 %>
                 <select class="modal-selectpicker">
                     <% r.release.formats.each_with_index do |rr, index| %>
@@ -40,15 +53,6 @@
                 </tbody>
             </table>
             <div class="modal-footer">
-                <% button = r.release.paypal_button %>
-                <script id="test-button" async="async" src="<%= button.destination %>"
-                        data-button="<%= button.type %>" 
-                        data-name="<%= button.purchase_name %>" 
-                        data-amount="<%= button.amount %>" 
-                        data-shipping="<%= button.shipping %>" 
-                        data-tax="<%= button.tax %>" 
-                        data-callback="<%= button.host %>" 
-                        ></script>
             </div>
         </div>
     </div>
