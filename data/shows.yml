@@ -1,38 +1,8 @@
-upcoming_events:
-  - date: Monday, June 22nd, 9pm
-    artists: "Ed Askew, Boats & Roads cassette release show"
-    location: "@ Manhattan Inn, Greenpoint, Brooklyn"
-    location_link: 'http://www.themanhattaninn.com'
-    tag: 'ed-askew'
-  
-  - date: Tuesday, July 7th, 8pm
-    artists: "Tim Kuhl (1982), Native/Naive, Christian Gibbs"
-    location: "@ Union Pool"
-    location_link: 'http://union-pool.com'
-    tag: 'tim-kuhl'
-
-  - date: Sunday, July 19th, 3pm
-    artists: "George Sand"
-    location: "@ Union Pool (Afternoon Hang)"
-    location_link: "http://union-pool.com"
-    tag: 'george-sand'
-      
-  - date: Sunday, August 2nd, 9pm
-    artists: "George Sand, Your 33 Black Angels"
-    location: "King's County"
-    location_link: "http://www.kingscountysaloon.com/#!upcoming_events/c1mya"
-    tag: 'george-sand'
-    
-  - date: Sunday, July 26th, 8pm
-    artists: "Ed Askew Band and Muyassar Kurdi"
-    location: "@ Ace Hotel - Manhattan, NY"
-    location_link: https://www.acehotel.com/calendar/newyork
-    tag: 'ed-askew'
-
-  - date: Wednesday, July 29th, 8pm
-    artists: "Ed Askew Band, Josephine Foster, Colby Nathan"
-    location: "@ Trans Pecos - Bushwick, BK"
-    location_link: http://www.thetranspecos.com
+upcoming_events:  
+  - date: Monday, August 24th, 10pm
+    artists: "Ed Askew"
+    location: "@ Manhattan Inn"
+    location_link: ""
     tag: 'ed-askew'
         
 past_events:
@@ -89,6 +59,10 @@ past_events:
       - name: "Tim Kuhl"
       - shows:
           - show:
+              - date: Tuesday, July 7th, 8pm
+                support: "Native/Naive, Christian Gibbs"
+                location: "@ Union Pool"
+          - show:
               - date: Wednesday, April 29th 
                 support: "Gegory Stovetop"
                 location: "@ Bar LunAtico - Bed-Stuy, Brooklyn"
@@ -99,10 +73,20 @@ past_events:
       - name: "Ed Askew"
       - shows:
           - show:
+              - date: Wednesday, July 29th, 8pm
+                location: "@ Trans Pecos - Bushwick, BK"
+                support: "Josephine Foster, Colby Nathan"
+          - show:
+              - date: Sunday, July 26th, 8pm
+                location: "@ Ace Hotel - Manhattan, NY"
+                support: "Muyassar Kurdi"
+          - show:
+              - date: Monday, June 22nd, 9pm
+                location: "@ Manhattan Inn, Greenpoint, Brooklyn"
+          - show:
               - date: Sunday, June 7th, 7pm
                 support: "David Greenberg, Julian Cartwright"
                 location: "@ House Show"
-
           - show:
               - date: Sunday, May 31st, 5pm 
                 support: "Yva Las Vegass, Pineapple Reality"
@@ -110,6 +94,13 @@ past_events:
                 
       - name: "George Sand"
       - shows:
+          - show:
+              - date: Sunday, August 2nd, 9pm
+                support: "Your 33 Black Angels"
+                location: "@ King's County"
+          - show:
+              - date: Sunday, July 19th, 3pm
+                location: "@ Union Pool (Afternoon Hang)"
           - show:
               - date: Friday, June 5th, 8pm
               - support: "Erin Durant, Pure Horsehair,  Andrea Schiavelli"

@@ -9,7 +9,7 @@ ed-askew:
   single_image: true
   image_vert: "img/artists/ed-askew/bw.jpg"
   image_max_width: "720px"
-  featured_video: "<iframe width='420' height='315' src='https://www.youtube.com/embed/oLfagaG7qMI' frameborder='0' allowfullscreen></iframe>"
+  featured_video: "<iframe width='420' height='315' src='https://www.youtube.com/embed/3Kjy0jKSYVE' frameborder='0' allowfullscreen></iframe>"
   release:
     artist_name: "Ed Askew"
     release_key: "fm004"
@@ -17,7 +17,7 @@ ed-askew:
     image_sm: "img/releases/fm004/EdAskew-BoatsAndRoads-sm.jpg"
     image_lg: "img/releases/fm004/EdAskew-BoatsAndRoads.jpg"
     image_alt: "Ed Askew - Boats and Roads"
-    description: "Boats and Roads' (1996) is Ed Askew's first self-recorded, self-released cassette of new songs, written and recorded in Washington Heights. This re-issue features the original artwork and also a lost song, Yama, remixed from the 4-track source by Tyler Evans (of Ed Askew band and George Sand). The tape is a beautiful light blue and includes a digital download of the full album. Edition of 250."
+    description: "'Boats and Roads' (1996) is Ed Askew's first self-recorded, self-released cassette of new songs, written and recorded in Washington Heights. This re-issue features the original artwork and also a lost song, Yama, remixed from the 4-track source by Tyler Evans (of Ed Askew band and George Sand). The tape is a beautiful light blue and includes a digital download of the full album. Edition of 250."
     description_sm: "11 Songs. Originally released in 1996."
     tracks:
       - track:
@@ -66,7 +66,7 @@ ed-askew:
     amount: "6.00"
     tax: "0.0"
     shipping: "2.00"
-    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
 
 tim-kuhl:
   name: "Tim Kuhl"
@@ -84,7 +84,7 @@ tim-kuhl:
   single_image: true
   image_vert: "img/artists/tim-kuhl/bw.jpg"
   image_max_width: "820px"
-  featured_video: "<iframe width='500' height='281' src='https://www.youtube.com/embed/QLOObAOfUZY' frameborder='0' allowfullscreen></iframe>"
+  featured_video: "<iframe src='https://player.vimeo.com/video/133936176?title=0&byline=0&portrait=0' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href='https://vimeo.com/133936176'>Tim Kuhl - Drive</a> from <a href='https://vimeo.com/leegingold'>Lee Gingold</a> on <a href='https://vimeo.com'>Vimeo</a>.</p> <p>Drive - From the album 1982<br /> Music composed by Tim Kuhl &copy;<br /> Dance by Anna Copa Cabanna <br /> Lyrics written and performed by Geoffrey Bankowski <br /> Guitar by Ryan Mackstaller<br /> Directed by Lee Gingold<br /> Additional photography by Sam Mason<br /> <br /> Special thanks to Nathan West <br /> <br /> 1982 Album Purchase (Digital) <br /> https://flyingmoonlight.bandcamp.com/album/1982<br /> <br /> 1982 Album Purchase (Vinyl)<br /> http://flyingmoonlight.com/preorder/</p>"
   release:
     artist_name: "Tim Kuhl"
     release_key: "fm003"
@@ -132,7 +132,7 @@ tim-kuhl:
     amount: "15.00"
     tax: "0.0"
     shipping: "2.00"
-    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com"
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com"
     
     
 george-sand:
@@ -184,7 +184,7 @@ george-sand:
     amount: "7.00"
     tax: "0.0"
     shipping: "2.00"
-    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
     
 hairy-sands:
   name: "Hairy Sands"
@@ -243,7 +243,7 @@ hairy-sands:
     amount: "16.00"
     tax: "0.0"
     shipping: "2.00"
-    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
 
 
 # George Sand

@@ -54,7 +54,7 @@
       amount: "6.00"
       tax: "0.0"
       shipping: "2.00"
-      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
 
 - release:
     artist_name: "Tim Kuhl"
@@ -102,7 +102,7 @@
       amount: "10.00"
       tax: "0.0"
       shipping: "2.00"
-      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
 
 - release:
     artist_name: "George Sand"
@@ -143,7 +143,7 @@
       amount: "7.00"
       tax: "0.0"
       shipping: "2.00"
-      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com"
 
 - release:
     artist_name: "Hairy Sands"
@@ -195,4 +195,4 @@
       amount: "16.00"
       tax: "0.0"
       shipping: "2.00"
-      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com" 
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
