@@ -117,8 +117,6 @@ def photos_yml_file(images)
 end 
 
 # get_instagram_photos()
-
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
