@@ -1,25 +1,14 @@
 upcoming_events:
-  - date: Sunday, Aug 30th
-    artists: "A special night curated by <strong>Jay Pluck</strong>: <strong>Hamish Kilgour</strong> (The Clean), <strong>Thollem McDonnas</strong> (Dub Narcotic Sound System), <strong>Kyle Forester</strong> (Crystal Stilts) & <strong>Bentley Anderson</strong>"
-    location: "@ Trans-Pecos"
-    location_link: "https://www.facebook.com/events/1604740586443080/"
-    tag: "george-sand"
-  - date: Sunday, Sept 6th
-    artists: "Tim Kuhl's 1982 vinyl release show w/ Aaron Roche"
-    location: "@ Rockwood Music Hall (Manhattan)"
-    location_link: "https://www.facebook.com/events/1451821351792987/"
+  - date: Sunday, Feb 3rd
+    artists: "Tim Kuhl, Christian Gibbs"
+    location: "@ Ace Hotel - Manhattan, NYC"
     tag: "tim-kuhl"
-  - date: Thursday, Sept 10th
-    artists: "Ed Askew - E.U. tour sendoff"
-    location: "@ Troost (Greenpoint, Brooklyn)"
-    location_link: "http://troostny.com/troost-events"
-    tag: "ed-askew"
-  - date: Saturday, Septh 12th
-    artists: "Jay Pluck - dj set"
-    location: "@ Troost (Greenpoint, Brooklyn)"
-    location_link: "http://troostny.com/troost-events"
-    tag: "george-sand"
-        
+    
+  - date: Saturday, Feb 13th
+    artists: "Kyle Forester, The Hairs"
+    location: "@ Cake Shop - Manattan, NYC"
+    tag: "kyle-forester"
+                  
 past_events:
   - artist:
       - name: "George Sand / Hairy Sands / European Tour 2014"
@@ -74,9 +63,17 @@ past_events:
       - name: "Tim Kuhl"
       - shows:
           - show:
+              - date: Tuesday, Jan 5th
+                support: "Aaron Roche, Kyle Forester"
+                location: "@ Union Pool - Williamsburg, BK"
+          - show:
+              - date: Sunday, Sept 6th
+                support: "Aaron Roche"
+                location: "@ Rockwood Music Hall (Manhattan)"
+          - show:
               - date: Tuesday, July 7th, 8pm
                 support: "Native/Naive, Christian Gibbs"
-                location: "@ Union Pool"
+                location: "@ Union Pool - Williamsburg, BK"
           - show:
               - date: Wednesday, April 29th 
                 support: "Gegory Stovetop"
@@ -87,6 +84,14 @@ past_events:
 
       - name: "Ed Askew"
       - shows:
+          - show:
+              - date: Tuesday, Nov 3rd
+                support: "Mary Lattimore & Jeff Ziegler, Sapropelic Pycnic, Yaman Palak"
+                location: "@ Union Pool - Williamsburg, Brooklyn"
+          - show:
+              - date: Thursday, Sept 10th
+                location: "@ Troost (Greenpoint, Brooklyn)"
+                support: "Bob Bannister"
           - show:
               - date: Wednesday, July 29th, 8pm
                 location: "@ Trans Pecos - Bushwick, BK"
@@ -106,6 +111,12 @@ past_events:
               - date: Sunday, May 31st, 5pm 
                 support: "Yva Las Vegass, Pineapple Reality"
                 location: PM to get address
+
+      - name: "Jay Pluck DJ Set"
+      - shows:
+          - show:
+              - date: Saturday, Sept 12th
+                location: "@ Troost (Greenpoint, Brooklyn)"
                 
       - name: "George Sand"
       - shows:
@@ -234,6 +245,10 @@ past_events:
       - name: "Hairy Sands"
       - shows:
           - show:
+              - date: Monday, Nov 2nd
+              - support : "Prince Rupert's Drops & Luscious Skin"
+              - location: "@ Elvis Guest House - Manhattan, NY"
+          - show:
               - date: Saturday, March 7
               - support: Bay Uno, Serena Jean
               - location: "@ The Living Room - Williamsburg, Brooklyn"
@@ -244,27 +259,27 @@ past_events:
           - show:
               - date: Tuesday Dec 9 2014
               - support: with Bay Uno, C. Gibbs sings Motherwell Johnston
-              - location: "@ Union Pool - Brooklyn, NY"
+              - location: "@ Union Pool - Williamsburg, BK"
           - show:
               - date: Saturday Oct 18 2014
               - support: with Fragile Gang
-              - location: "@ Pete's Candy Store - Brooklyn, NY"
+              - location: "@ Pete's Candy Store - Williamsburg, BK"
           - show:
               - date: Tuesday June 24 2014
               - support: with Platnum Vision, Peter Kerlin Octet
-              - location: "@ Shea Stadium - Brooklyn, New York"
+              - location: "@ Shea Stadium - Williamsburg, BK"
           - show:
               - date: Tuesday 21 Jan 2014
               - support: with Prince Ruperts Drops, Jonas Reinhardt
-              - location: "@ Union Pool - Brooklyn, NY"
+              - location: "@ Union Pool - Williamsburg, BK"
           - show:
               - date: Saturday Dec 21 2013
               - support: with VietNam, Statuette, Baby Copperhead, Revival Times
-              - location: "@ Baby's Alright - Brookyn, NY"
+              - location: "@ Baby's Alright - Williamsburg, BK"
           - show:
               - date: Tuesday Oct 8, 2013
               - support: with Iola and George Sand
-              - location: "@ Cameo Gallery - Brooklyn, NY"
+              - location: "@ Cameo Gallery - Williamsburg, BK"
           - show:
               - date: Mar 2013
               - support: with Monte de Rosas Band, George Sand and Hello Lovers
@@ -272,13 +287,19 @@ past_events:
           - show:
               - date: Sunday December 9, 2012
               - support: with Teletextile
-              - location: "@ Cameo Gallery - Brooklyn, NY"
+              - location: "@ Cameo Gallery - Williamsburg, BK"
           - show:
               - date: Sunday October 21, 2012
               - support: with Aza Nizi Maza and Source of Yellow
-              - location: "@ Cameo Gallery - Brooklyn, NY"
+              - location: "@ Cameo Gallery - Williamsburg, BK"
           - show:
               - date: Tuesday October 2, 2012
               - support: with George Sand
               - location: "@ Home Sweet Home - New York, NY"
 
+      - name: Muyassar Kurdi
+      - shows:
+          - show:
+              - date: Saturday, Nov 14th
+              - support: "Marcia Bassett, Native Naive"
+              - location: "@ Troost - Greenpoint, Brooklyn"

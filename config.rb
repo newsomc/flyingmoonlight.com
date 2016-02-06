@@ -36,7 +36,7 @@ page "contact.html.erb", :layout => false
 page "preorder.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
-["ed-askew", "tim-kuhl", "george-sand", "hairy-sands"].each do |name|
+["muyassar-kurdi", "ed-askew", "tim-kuhl", "george-sand", "hairy-sands"].each do |name|
   proxy "/artists/#{name}.html", "/artist.html", :locals => { :artist_name => name }, :ignore => true
 end
 
@@ -100,6 +100,7 @@ def get_instagram_photos()
   
   tags = [
     'flyingmoonlight',
+    'muyassarkurdi',
     'georgesand',
     'hairysands',
     'dallasacid',
@@ -117,6 +118,7 @@ def photos_yml_file(images)
 end 
 
 # get_instagram_photos()
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

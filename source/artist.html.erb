@@ -57,8 +57,8 @@ title: Flying Moonlight Records
                 <div class="artist-video">
                     <%= artist.featured_video %>
                 </div>
-                <h1> Bio </h1>
                 <% if artist.bio.detail %>
+                <h1> Bio </h1>
                 <div class="artist-bio"> <%= artist.bio.detail %> </div>
                 <% end %>
                 <% if artist.bio.origin %>
@@ -67,9 +67,10 @@ title: Flying Moonlight Records
                 <% if artist.bio.played_with %>
                 <div class="artist-bio"> <%= artist.bio.played_with %> </div>
                 <% end %>
-                
-                <%= partial(:artist_instagram_photos, :locals => {:aname =>  artist_name.gsub(/-/, '_') }) %>
 
+                <!-- <% unless artist_name == 'muyassar-kurdi' %> -->
+                <!--   <%= partial(:artist_instagram_photos, :locals => {:aname =>  artist_name.gsub(/-/, '_') }) %> -->
+                <!-- <% end %> -->
                 <!-- put instagram photos back --->
             </div>
         </div>
