@@ -53,7 +53,7 @@ She has studied with <strong>Meredith Monk</strong>, <strong>Tadashi Endo</stron
     purchase_name: "Beyond the Orchard"
     amount: "6.00"
     tax: "0.0"
-    shipping: "2.00"
+    shipping: "0.00"
     destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=jaypluck@gmail.com"
 
 ed-askew:

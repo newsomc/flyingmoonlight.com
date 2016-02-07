@@ -12,12 +12,8 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <%= stylesheet_link_tag 'bootstrap/css/bootstrap.min.css' %>
-        <%= stylesheet_link_tag 'css/normalize.css' %>
-        <%= stylesheet_link_tag 'css/main.css' %>
-        <%= stylesheet_link_tag 'css/customize.css' %>
-        <%= stylesheet_link_tag '//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css' %>
 
+        <%= stylesheet_link_tag 'css/styles.css' %>
         <%= javascript_include_tag 'js/vendor/modernizr-2.6.1.min.js' %>
 
         <!-- Import Fonts -->
@@ -31,10 +27,10 @@
             <![endif]-->
 
         <!-- Fixed navbar -->
-        <%= partial "header" %>
 
         <!-- Begin page content -->
-        <div class="container">
+        <div class="wrapper">
+            <%= partial "masthead" %>
             <%= yield %>
         </div>
 

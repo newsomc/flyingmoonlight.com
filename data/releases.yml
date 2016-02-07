@@ -196,3 +196,89 @@
       tax: "0.0"
       shipping: "2.00"
       destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
+
+- release:
+    artist_name: "Muyassar Kurdi"
+    release_key: "fm005"
+    title: Beyond the Orchard
+    image_sm: "img/releases/fm005/MuyassarKurdi-BeyondTheOrchard.jpg-sm.jpg"
+    image_lg: "img/releases/fm005/MuyassarKurdi-BeyondTheOrchard.jpg"
+    image_alt: "Muyassar Kurdi - Beyond the Orchard"    
+    description: ""
+    description_sm: "6 song cassette. Recorded 2013."
+    tracks:
+      - track:
+          title: "White Porcelain"
+          time: "2:49"
+      - track:
+          title: "Fill me up"
+          time: "2:37"
+      - track:
+          title: "Drone"
+          time: "2:25"
+      - track:
+          title: "Dear Momma"
+          time: "5:36"
+      - track:
+          title: "Don't Want Your Love"
+          time: "4:33"
+      - track:
+          title: "Beyond the Orchard"
+          time: "6:00"
+    formats:
+      - format:
+          description: "Beyond the Orchard - 6 song cassette"
+          value: "casette"
+          price: "$6.00"
+
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Beyond the Orchard"
+      amount: "6.00"
+      tax: "0.0"
+      shipping: "0.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=jaypluck@gmail.com"
+
+- release:
+    artist_name: "Kyle Forester"
+    release_key: "fm006"
+    title: 
+    image_sm: "img/releases/fm006/KyleForester-KyleForester-sm.jpg"
+    image_lg: "img/releases/fm006/KyleForester-KyleForester.jpg"
+    image_alt: "Kyle Forester - Self Titled LP"    
+    description: ""
+    description_sm: "9 Song LP. Recorded 2014."
+    tracks:
+      - track:
+          title: "White Porcelain"
+          time: "2:49"
+      - track:
+          title: "Fill me up"
+          time: "2:37"
+      - track:
+          title: "Drone"
+          time: "2:25"
+      - track:
+          title: "Dear Momma"
+          time: "5:36"
+      - track:
+          title: "Don't Want Your Love"
+          time: "4:33"
+      - track:
+          title: "Beyond the Orchard"
+          time: "6:00"
+    formats:
+      - format:
+          description: "Beyond the Orchard - 6 song cassette"
+          value: "casette"
+          price: "$6.00"
+
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Beyond the Orchard"
+      amount: "6.00"
+      tax: "0.0"
+      shipping: "0.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=jaypluck@gmail.com"

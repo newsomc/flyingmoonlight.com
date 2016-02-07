@@ -1,101 +1,37 @@
----
-title: Flying Moonlight Records
----
-
-<!-- Add your site or application content here -->
-<div class="container">
-    <div class="row row-offcanvas row-offcanvas-right">
-
-        <div class="col-xs-12 col-sm-9">
-            <!-- This doesn't seem to do anything... Commenting out because it's just a random floating button
-            <p class="pull-right visible-xs">
-                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+<ul class="navigation">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Releases</a></li>
+  <li><a href="#">Artists</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Links</a></li>
+</ul>
+<div class="main">
+    <h3 class="section-header"> Recent releases </h3>
+    <section class="releases">
+        <%= partial(:featured_releases) %>
+    </section>
+    <section class="more">
+        <aside class="aside aside-1">
+            <h3>News</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
-            -->
-            <div class="jumbotron">
+        </aside>
+        <aside class="aside aside-2">
+            <h3>Mailing List</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
 
-                <div class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <% Dir.entries("source/img/marketing").select {|f| !File.directory? f}.each_with_index do |file, index| %>
-                          <% if index == 0 %>
-                            <li data-target="#carousel-example-generic active" data-slide-to="<%= index %>"></li>
-                          <% else %>
-                            <li data-target="#carousel-example-generic" data-slide-to="<%= index %>"></li>
-                          <% end %>
-                        <% end %>
-                    <!-- <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> -->
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <% Dir.entries("source/img/marketing").select {|f| !File.directory? f}.each_with_index do |file, index| %>
-                          <% if index == 0 %><div class="item active"><% else %> <div class="item"><% end %>
-                            <img src="img/marketing/<%= file %>" alt="">
-                            <!-- <div class="carousel-caption"> -->
-                            <!--     Flying Moonlight 1 -->
-                            <!-- </div> -->
-                          </div>
-                        <% end %>
-                    </div>
-                </div>
-            </div>
-            <div class="media">
-                <h1> News </h1>
-                <% data.news.each do |story| %>
-                  <div class="media-body">
-                    <h2 class="media-heading"> <%= story.title %> </h2>
-                    <p><%= story.body %></p>
-                  </div>
-                  <hr>
-                <% end %>
-            </div>
-            <div>
-                <div>
-                    <h2>Flying Moonlight Around the World</h2>
-                    <div>
-                        <div class="photo-row row">
-                            <% data.photos.flyingmoonlight.each do |url| %>
-                              <img class="col-md-4 instagram-image" style="width: 32%; height: 32%;" src="<%= url %>"/>
-                            <% end %>
-                          </div>
-                     </div>
-                    </div>
-                </div>
-            </div>
+            <h3>Twitter</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
 
-            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-                <div>
-                    <%= partial(:featured_releases) %>
-                </div>
-                <div>
-                    <h2>Shows</h2>
-                    <hr>
-                    <%= partial(:upcoming_shows, :locals => {:tag => nil})  %>
-                </div>
-                <div>
-                    <h2>Audio</h2>
-                    <hr>
-                    <% data.featured_audio.bandcamp_embeds.each do |entry| %>
-                    <ul class="list-group list-unstyled right-bar-audio">
-                        <% entry.artist.each do |ent| %>
-                        <p><%= ent.name %></p>
-                        <% ent.tracks.to_a.sample(2).each do |track| %>
-                        <li><%= track %></li>
-                        <% end %>
-                        <% end %>
-                    </ul>
-                    <% end %>
-                </div>
-                <div>
-                    <a class="twitter-timeline" href="https://twitter.com/FlyingMoonlite" data-widget-id="612384026146566144">Tweets by @FlyingMoonlite</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
-                <div>
-                    <img class="right-bar-logo" src="img/FMLogo_200.png" alt="FM Logo"/>
-                </div>
-            </div><!--/.sidebar-offcanvas-->
-        </div><!--/row-->
-        <hr>
-    </div>
-    <%= partial(:featured_releases_modal) %>
+            <h3>Shows</h3>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </aside>
+    </section>
 </div>

@@ -1,26 +1,8 @@
-/* General Styles */
 
-body {
-   f ont-family: 'Lato', Helvetica, sans-serif;
-}
+/* Masthead */
 
-h1 {
-    font: 2.25em 'Crimson Text', serif;
-}
-
-h2 {
-    font: 1.75em 'Crimson Text', serif;
-}
-
-h3 {
-    font: 1.25em 'Crimson Text', serif;
-    text-transform: uppercase;
-}
-
-h4 {
-    font: 1.00em 'Crimson Text', serif;
-    font-weight: bold;
-    margin: 0;
+#masthead {
+    width: 70%;
 }
 
 
