@@ -1,4 +1,113 @@
 - release:
+    artist_name: "Kyle Forester"
+    release_key: "fm006"
+    title: "s/t"
+    image_sm: "img/releases/fm006/KyleForester-KyleForester-sm.jpg"
+    image_lg: "img/releases/fm006/KyleForester-KyleForester.jpg"
+    image_alt: "Kyle Forester - s/t"
+    description: "Kyle Forester was recorded over the course of 2015 at home and at Marlborough Farms, Brooklyn with Gary Olson and mixed with Matt Boynton at The Magic Shop, NYC. It will be available on LP and cassette via Flying Moonlight Records on May 20th, 2016.
+"
+    description_sm: "12 Songs. Recorded in 2015."
+    tracks:
+      - track:
+          title: "Won't Go Crazy"
+          time: "3:43"
+      - track:
+          title: "Downtown"
+          time: "3:45"
+      - track:
+          title: "Didn't Try to Run Away"
+          time: "3:05"
+      - track:
+          title: "Forgot My Name"
+          time: "2:17"
+      - track:
+          title: "Imitation of Imitation"
+          time: "1:29"
+      - track:
+          title: "Woman In Love"
+          time: "3:01"
+      - track:
+          title: "Make Up Their Minds"
+          time: "2:59"
+      - track:
+          title: "Reflection"
+          time: "2:40"
+      - track:
+          title: "All the Runaround"
+          time: "1:40"
+      - track:
+          title: "What Would I Say"
+          time: "3:43"
+      - track:
+          title: "Imitation of Love"
+          time: "2:09"
+      - track:
+          title: "Worst Thing You Could Do"
+          time: "2:39"
+    formats:
+      - format:
+          description: "Vinyl 12-inch"
+          value: "vinyl"
+          price: "$18.00"
+          
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Kyle Forester - s/t"
+      amount: "16.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com"
+
+- release:
+    artist_name: "Muyassar Kurdi"
+    release_key: "fm005"
+    title: Beyond the Orchard
+    image_sm: "img/releases/fm005/MuyassarKurdi-BeyondTheOrchard-sm.jpg"
+    image_lg: "img/releases/fm005/MuyassarKurdi-BeyondTheOrchard.jpg"
+    image_alt: "Beyond the Orchard"
+    description: "<p> Recorded in 2013, the digital self-release of <strong>Beyond the Orchard</strong> was an important album in the burgeoning acid-folk Chicago sound. This cassette release is the first physical release of these recordings, which sound particularly majestic when played on tape.</p> 
+
+<p>It is the most song-based work of artist, Muyassar Kurdi. The songs are rumbling and solid. The vocal, Autoharp, organ, and percussion layers are live and immediate; even the reverb has a sharpness. This urgency predicts Kurdi's next album, White Noise, and also her current work in improvisation and song.</p>
+
+<p> \"(A) twenty-four minute batch of unsettling siren songs, gauze-draped ballads, and rumbling off-kilter loops... The first three pieces are a solid introduction - in brief snippets - to Kurdi's art, culminating in the aptly-titled \"Drone\", which takes a page from the Journey in Satchidananda book and melds tanpura, oscillators and feedback into a short but arresting instrumental piece. The following three tunes are a bit longer, hovering around four to six minutes, and range from the nearly oppressive wash of \"Dear Momma\" to the folksy echoed beauty of \"Don't Want Your Love.\" The closing title composition brings the fuzz in a wander of queasy repetition, percussion and blown-out organ that looks somewhat toward early CDY/Espers.\"<p> -- <strong>Clifford Allen for Tiny Mix Tapes</strong>"
+    description_sm: "6 Songs. Originally recorded in 2013."
+    tracks:
+      - track:
+          title: "White Porcelain"
+          time: "2:49"
+      - track:
+          title: "Fill me up"
+          time: "2:37"
+      - track:
+          title: "Drone"
+          time: "2:25"
+      - track:
+          title: "Dear Momma"
+          time: "5:36"
+      - track:
+          title: "Don't Want Your Love"
+          time: "4:33"
+      - track:
+          title: "Beyond the Orchard"
+          time: "6:00"
+    formats:
+      - format:
+          description: "Beyond the Orchard - Cassette"
+          value: "cassette"
+          price: "$6.00"
+          
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Beyond the Orchard"
+      amount: "6.00"
+      tax: "0.0"
+      shipping: "2.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=jaypluck@gmail.com"
+      
+- release:
     artist_name: "Ed Askew"
     release_key: "fm004"
     title: Boats and Roads
@@ -196,3 +305,4 @@
       tax: "0.0"
       shipping: "2.00"
       destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
+
