@@ -187,9 +187,9 @@ tim-kuhl:
     type: "buynow"
     host: "http://flyingmoonlight.com"
     purchase_name: "1982"
-    amount: "15.00"
+    amount: "17.00"
     tax: "0.0"
-    shipping: "2.00"
+    shipping: "3.00"
     destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com"
     
     
@@ -241,7 +241,7 @@ george-sand:
     purchase_name: "Caroline"
     amount: "7.00"
     tax: "0.0"
-    shipping: "2.00"
+    shipping: "3.00"
     destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
     
 hairy-sands:
@@ -298,9 +298,9 @@ hairy-sands:
   paypal_button:
     type: "buynow"
     purchase_name: "Tears"
-    amount: "16.00"
+    amount: "19.00"
     tax: "0.0"
-    shipping: "2.00"
+    shipping: "3.00"
     destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
 
 
@@ -369,10 +369,10 @@ kyle-forester:
     type: "buynow"
     host: "http://flyingmoonlight.com"
     purchase_name: "Kyle Forester - s/t"
-    amount: "16.00"
+    amount: "17.00"
     tax: "0.0"
-    shipping: "2.00"
-    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=hcnewsom@gmail.com"
+    shipping: "3.00"
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
 
 
 # George Sand

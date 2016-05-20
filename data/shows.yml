@@ -1,16 +1,33 @@
 upcoming_events:
-  - date: Sunday, Feb 3rd
-    artists: "Tim Kuhl, Christian Gibbs"
-    location: "@ Ace Hotel - Manhattan, NYC"
+  - date: Wednesday May 25th
+    artists: "Tim Kuhl, Clint Newsom (w/ Kyle Forester)"
+    location: "@ Manhattan Inn - Brooklyn, NY"
     tag: "tim-kuhl"
-    
-  - date: Saturday, Feb 13th
-    artists: "Kyle Forester, The Hairs"
-    location: "@ Cake Shop - Manattan, NYC"
+  - date: Saturday May 28th
+    artists: "Kyle Forester, Fred Thomas"
+    location: "@ Cake Shop - Manhattan, NY"
+    tag: "kyle-forester"
+  - date: Tuesday June 14th
+    artists: "Kyle Forester"
+    location: "@ Wunderbar - Rotterdamn, Netherlands"
+    tag: "kyle-forester"
+  - date: Wednesday June 15th
+    artists: "Kyle Forester"
+    location: "@ Subbacultcha! - Amsterdam, Netherlands"
     tag: "kyle-forester"
                   
 past_events:
   - artist:
+      - name: "Kyle Forester"
+      - shows:
+          - show:
+              - date: Wednesday May 18th
+                support: "George Sand, Bill Botting, Pale Lights"
+                location: "@ Alphaville - Brooklyn, NY"
+              - date: Saturday Feb 13th
+                support: "The Hairs"
+                location: "@ Cake Shop - Manattan, NYC"
+      
       - name: "George Sand / Hairy Sands / European Tour 2014"
       - shows:                          
           - show:
@@ -62,6 +79,10 @@ past_events:
 
       - name: "Tim Kuhl"
       - shows:
+          - show:
+              - date: Sunday, Feb 3rd
+                support: "Christian Gibbs"
+                location: "@ Ace Hotel - Manhattan, NYC"
           - show:
               - date: Tuesday, Jan 5th
                 support: "Aaron Roche, Kyle Forester"
