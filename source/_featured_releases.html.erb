@@ -1,10 +1,11 @@
 <ul id="featured-releases">
-<% data.releases.each do |r| %>
+  <% data.releases.each do |r| %>
   <li class="featured-release col-md-4">
-      <%= image_tag r.release.image_sm, :alt => r.release.image_alt %>
-      <div class="release-formats">
-          <button data-release-id='<%= r.release.release_key %>' type="button" class="btn btn-block buy-release"> order album </button>
-      </div>
+    <%= image_tag r.release.image_sm, :alt => r.release.image_alt %>
+    <div class="release-formats">
+      <button data-release-id='<%= r.release.release_key %>' type="button" class="btn btn-block glyphicon glyphicon-shopping-cart buy-release"></button>
+    </div>
+    <div><%= r.release.artist_name %> - <%= r.release.title %></div>
   </li>
-<% end %>
+  <% end %>
 </ul>
