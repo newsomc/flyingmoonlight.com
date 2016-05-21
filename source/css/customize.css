@@ -179,3 +179,8 @@ h4 {
     display: inline;
     padding: 3px;
 }
+
+.artist-bio {
+    padding: 10px;
+    padding-left: 0px;
+}

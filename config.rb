@@ -37,7 +37,8 @@ page "preorder.html.erb", :layout => false
 page "dallas-acid-preorder.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
-["muyassar-kurdi", "ed-askew", "tim-kuhl", "george-sand", "hairy-sands"].each do |name|
+["dallas-acid", "muyassar-kurdi","ed-askew", "tim-kuhl",
+ "george-sand", "hairy-sands", "kyle-forester"].each do |name|
   proxy "/artists/#{name}.html", "/artist.html", :locals => { :artist_name => name }, :ignore => true
 end
 
