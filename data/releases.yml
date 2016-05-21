@@ -49,7 +49,7 @@
       - format:
           description: "Vinyl 12-inch"
           value: "vinyl"
-          price: "$18.00"
+          price: "$17.00"
           
     paypal_button:
       type: "buynow"
