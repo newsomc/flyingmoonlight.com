@@ -6,10 +6,12 @@ body {
 
 h1 {
     font: 2.25em 'Crimson Text', serif;
+    margin: 0.07em 0;
 }
 
 h2 {
     font: 1.75em 'Crimson Text', serif;
+    margin: 0.07em 0;
 }
 
 h3 {
@@ -22,7 +24,6 @@ h4 {
     font-weight: bold;
     margin: 0;
 }
-
 
 /* Navigation */
 .navbar-default {
@@ -92,6 +93,12 @@ h4 {
   width: -moz-calc(100% + 30px);
   width: calc(100% + 30px);
   margin-left: -15px;
+}
+
+.news a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* ========================================================================== */
