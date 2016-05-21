@@ -165,7 +165,7 @@
       tax: "0.0"
       shipping: "2.00"
       destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com" 
-
+      
 # - release:
 #     artist_name: "George Sand"
 #     release_key: "fm002"

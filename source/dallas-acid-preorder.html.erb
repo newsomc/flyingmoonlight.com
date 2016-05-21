@@ -1,0 +1,54 @@
+---
+title: Flying Moonlight Records | Dallas Acid | Preorder
+---
+
+<% artist = data.artists['dallas-acid'] %>
+<div>
+    <div>
+        <div>
+            <div>
+                <h2 class="release-title"> Preorder <%= artist.name %> - <span class="release-title-format"> <%= artist.release.formats.first.format.description %><span></h2>
+                <%= image_tag artist.release.image_lg, :class => 'release-full-size-img img-responsive', :alt => artist.release.image_alt %>
+                <div class="release-price"></div>
+                <div class="release-purchase"></div>
+            </div>
+            <div>
+                <div class="release-description"><%= artist.release.description_sm %> Limited 250 pressing.</div>
+                <div class="release-description"><h3>Vinyl pre-orders ship May, 2016.</h3></div>
+                <div>
+                    <% button = artist.paypal_button %>
+                    <script id="test-button" async="async" src="<%= button.destination %>"
+                            data-button="<%= button.type %>" 
+                            data-name="<%= button.purchase_name %>" 
+                            data-amount="<%= button.amount %>" 
+                            data-shipping="<%= button.shipping %>" 
+                            data-tax="<%= button.tax %>" 
+                            data-callback="<%= button.host %>" 
+                            data-env="<%= button.env %>"
+                            ></script>
+                </div>
+                <div id="preorder-price">
+                    <h2><span><%= artist.release.formats.first.format.price %><span></h2>
+                </div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Track</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% artist.release.tracks.each_with_index do |r, index| %>
+                    <tr> 
+                        <th scope="row"><%= index.next() %></th>
+                        <td><%= r.track.title %></td>
+                        <td><%= r.track.time %></td>
+                    </tr>
+                    <% end %>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>

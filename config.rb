@@ -34,6 +34,7 @@ page "live.html.erb", :layout => false
 page "links.html.erb", :layout => false
 page "contact.html.erb", :layout => false
 page "preorder.html.erb", :layout => false
+page "dallas-acid-preorder.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
 ["muyassar-kurdi", "ed-askew", "tim-kuhl", "george-sand", "hairy-sands"].each do |name|
