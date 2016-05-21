@@ -7,14 +7,14 @@ title: Flying Moonlight Records | Dallas Acid | Preorder
     <div>
         <div>
             <div>
-                <h2 class="release-title"> Preorder <%= artist.name %> - <span class="release-title-format"> <%= artist.release.formats.first.format.description %><span></h2>
+                <h2 class="release-title"> <%= artist.name %> - <span class="release-title-format"> <%= artist.release.formats.first.format.description %><span></h2>
                 <%= image_tag artist.release.image_lg, :class => 'release-full-size-img img-responsive', :alt => artist.release.image_alt %>
                 <div class="release-price"></div>
                 <div class="release-purchase"></div>
             </div>
             <div>
                 <div class="release-description"><%= artist.release.description_sm %> Limited 250 pressing.</div>
-                <div class="release-description"><h3>Vinyl pre-orders ship May, 2016.</h3></div>
+                <div class="release-description"><h3>Vinyl pre-orders ship July, 2016.</h3></div>
                 <div>
                     <% button = artist.paypal_button %>
                     <script id="test-button" async="async" src="<%= button.destination %>"
