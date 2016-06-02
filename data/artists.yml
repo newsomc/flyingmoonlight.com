@@ -37,7 +37,7 @@ dallas-acid:
   paypal_button:
     type: "buynow"
     host: "http://flyingmoonlight.com"
-    purchase_name: "Beyond the Orchard"
+    purchase_name: "Original Soundtrack"
     amount: "28.00"
     tax: "4.5"
     shipping: "3.00"
