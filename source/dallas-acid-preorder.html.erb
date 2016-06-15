@@ -15,6 +15,13 @@ title: Flying Moonlight Records | Dallas Acid | Preorder
             <div>
                 <div class="release-description"><%= artist.release.description_sm %> Limited 250 pressing.</div>
                 <div class="release-description"><h3>Vinyl pre-orders ship July, 2016.</h3></div>
+                <div class="release-description">I live in:
+                  <select id="country">
+                    <option name="us" selected> United States</option>
+                    <option name="ca">Canada</option>
+                    <option name="other">EU, Asia, South America</option>
+                  </select>
+                </div>
                 <div>
                     <% button = artist.paypal_button %>
                     <script id="test-button" async="async" src="<%= button.destination %>"
@@ -28,7 +35,7 @@ title: Flying Moonlight Records | Dallas Acid | Preorder
                             ></script>
                 </div>
                 <div id="preorder-price">
-                    <h2><span><%= artist.release.formats.first.format.price %> plus shipping<span></h2>
+                    <h2><span><%= artist.release.formats.first.format.price %> plus shipping $(<span class="shipping-val"><%= button.shipping %></span>)<span></h2>
                 </div>
             <table class="table table-striped">
                 <thead>
@@ -51,4 +58,20 @@ title: Flying Moonlight Records | Dallas Acid | Preorder
         </div>
         </div>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+      
+      $("#country").on('change', function() {
+          var name = $(this).find('option:selected').attr("name"),
+              shipping = "3.00";
+          if (name == "ca") {
+              shipping = "10.00"
+          }
+          else if (name == "other") {
+              shipping = "22.50"
+          }
+          $(".paypal-button input:hidden[name=shipping]").val(shipping);
+          $(".shipping-val").html(shipping);
+      });
+    </script>
 </div>
