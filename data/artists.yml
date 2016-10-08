@@ -1,7 +1,72 @@
+erin-durant:
+  name: "Erin Durant"
+  bio:
+    main: "Erin Durant is a New Orleans raised, Brooklyn based songwriter and musician. Her music mixes equal parts silence to sound with hyper-visual, story-based lyrics. Durant's first full-length, Blueberry Mountain draws on apparition-like storytelling, and her strategic use of reverb and room sound are reminiscent of Violeta Parra and the grit of Springsteen's Nebraska. The result is refreshingly anachronistic, creating a minimalism all of her own, Durant's high, clear voice drawing curls in the air."
+  single_image: true
+  image_vert: "img/artists/erin-durant/Erin-Durant.jpg"
+  image_max_width: "720px"
+  featured_video: ""
+  release:
+    promo_headline: "\"Blueberry Mountain\" out Nov 3rd. On tour through Oct 2016."
+    artist_name: "Erin Durant"
+    release_key: "fm008"
+    title: Blueberry Mountain
+    image_sm: "img/releases/fm008/Blueberry-Mountain-sm.jpg"
+    image_lg: "img/releases/fm008/Blueberry-Mountain.jpg"
+    image_alt: ""
+    description: ""
+    description_sm: ""
+    tracks:
+      - track:
+          title: "Blueberry Mountain"
+          time: "03:07"
+      - track:
+          title: "Settle Down"
+          time: "03:56"
+      - track:
+          title: "Health To Your Mother"
+          time: "02:52"
+      - track:
+          title: "Old Soul"
+          time: "03:14"
+      - track:
+          title: "Negativity Blues"
+          time: "03:14"
+      - track:
+          title: "You Don't Know Me"
+          time: "03:12"
+      - track:
+          title: "Rolling Through"
+          time: "02:11"
+      - track:
+          title: "Long Distance"
+          time: "03:26"
+      - track:
+          title: "Louise"
+          time: "03:17"
+      - track:
+          title: "Downtown"
+          time: "02:10"
+    formats:
+      - format:
+          description: "Blueberry Mountain"
+          value: "Cassette"
+          price: "$7.00"
+          
+  paypal_button:
+    type: "buynow"
+    host: "http://flyingmoonlight.com"
+    purchase_name: "Blueberry Mountain"
+    amount: "7.00"
+    tax: "0.00"
+    shipping: "3.00"
+    destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com"
+
+
 dallas-acid:
   name: "Dallas Acid"
   bio:
-    main: "After 15 years of creating soundtracks to aid space travelers, Dallas Acid returns this Summer with a new double LP, Original Soundtrack, cataloguing their recent explorations of distant stars. The seminal cosmic synth-scape outfit pilots you on a deep space journey, diving into washes of shifting sound waves and through the burning growls and screaming white noise of uncharted anomalies. Rhythms of primordial ritual carry you past warped melodies which break apart in the gravitational pull, and trickling oscillator fluctuations burn like cinders in the cold emptiness. Experience purification through fire, a cleansing of the soul in the deep warmth of the sun."
+    main: "After two years of deep space sonic exploration, Dallas Acid returns to Earth in 2016 with a new double LP. \"Original Soundtrack\" leads you past distant stars, diving into pulsars of shifting sound waves, swimming through black holes screaming with white noise, and serenely floating past remnants of ancient supernovae. This record chronicles the fantastic energy that led them on this sonorous journey. The listener is piloted by primordial rhythms, and invited to step out of the vessel to meet the nearest bright stars, inviting us to channel a singular event, the beginning of the universe."
   single_image: true
   image_vert: "img/artists/dallas-acid/Dallas-Acid.jpg"
   image_max_width: "720px"
@@ -13,7 +78,7 @@ dallas-acid:
     image_sm: "img/releases/fm007/Original-Soundtrack-sm.jpg"
     image_lg: "img/releases/fm007/Original-Soundtrack.jpg"
     image_alt: Original Soundtrack
-    description: "Deluxe double LP out July 2016."
+    description: "<i>\"The album feels like a stroll through a theme park of a universal collective unconscious, not a traditional park in the sense of animatronic monsters and spandex re-enactors, but the total immersion of 21st century VR where the end of the ride finds people with their head in their hands or staring off into space, trying to come to terms with what has just happened. Because this is not the showboating \"psychedelic\" music of frantic fuzz guitar jabs and jarring keyboard accents, but a true mind-altering experience.\" <p> - John Clark</p></i>"
     description_sm: ""
     tracks:
       - track:

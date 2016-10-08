@@ -1,33 +1,94 @@
 upcoming_events:
-  - date: Wednesday May 25th
-    artists: "Tim Kuhl, Clint Newsom (w/ Kyle Forester)"
-    location: "@ Manhattan Inn - Brooklyn, NY"
-    tag: "tim-kuhl"
-  - date: Saturday May 28th
-    artists: "Kyle Forester, Fred Thomas"
-    location: "@ Cake Shop - Manhattan, NY"
-    tag: "kyle-forester"
-  - date: June 7-14
-    location: "@ Monkey Town - Los Angeles, CA"
-    artists: "Dallas Acid"
-    tag: "dallas-acid"
-  - date: Tuesday June 14th
-    artists: "Kyle Forester"
-    location: "@ Wunderbar - Rotterdamn, Netherlands"
-    tag: "kyle-forester"
-  - date: Wednesday June 15th
-    artists: "Kyle Forester"
-    location: "@ Subbacultcha! - Amsterdam, Netherlands"
-    tag: "kyle-forester"
-                  
+  - date: Saturday, October 8 
+    artists: "Erin Durant & Okolona"
+    location: Denver, CO @ House show
+    tag: 'erin-durant'
+  - date: Monday, October 10
+    artists: "Erin Durant & Okolona"
+    location: Black Rock Desert, Nevada @ Salt Flats Campout    
+    tag: 'erin-durant'
+  - date: Wednesday, October 12
+    artists: Erin Durant, Okolona, Kyp Malone
+    location: Oakland, CA @ Starline Social Club
+    tag: 'erin-durant'
+  - date: Friday, October 14
+    artists: Erin Durant, Okolona, Kyp Malone
+    location: Big Sur, CA @ Henry Miller Library*
+    tag: 'erin-durant'
+  - date: Saturday, October 15
+    artists: Erin Druatn, Okolona, Kyp Malone, Village of Spaces
+    location: Santa Cruz, CA @ Dan & Amy\'s
+    tag: 'erin-durant'
+  - date: Sunday, October 16
+    artists: Erin Durant, Okolona, Kyp Malone
+    location: Nevada City, CA @ Nail Factory
+    tag: 'erin-durant'
+  - date: Monday, October 17
+    artists: Erin Druant, Okolona
+    location: Los Angeles, CA @ Honey Power
+    tag: 'erin-durant'
+  - date: Tuesday, October 18
+    artists: Erin Durant, Okolona
+    location: Topanga, CA @  131 Topanga
+    tag: 'erin-durant'
+  - date: Friday, October 21
+    artists: Erin Durant, Okolona
+    location: Vail, AZ @ Geneva\'s
+    tag: 'erin-durant'
+  - date: Sunday, October 23
+    artists: Erin Durant, Okolona
+    location: Marfa, TX @ Copa Cobanana
+    tag: 'erin-durant'
+  - date: Tuesday, October 25
+    artists: Erin Durant, Okolona, Longriver
+    location: Austin, TX @ Hackberry House
+    tag: 'erin-durant'
+  - date: Tuesday, October 25
+    artists: Grey McMurray, Faten Kanaan
+    location: Brooklyn, NY @ Union Pool
+    tag: 'erin-durant'
+  - date: Friday, October 28
+    artists: Erin Durant, Okolona, Kyp Malone
+    location: New Orleans, LA @ Music Box
+    tag: 'erin-durant'
+  - date: Tuesday, November 1
+    artists: Erin Durant
+    location: Brooklyn, NY @ Union Pool / Record Release show
+    tag: 'erin-durant'
+  
 past_events:
+  - artist:
+      - name: "Erin Durant"
+      - shows:
+          - show:
+              - date: Friday, October 7
+              - location: Louisville, KY @ ARTxFM radio
+              
+  - artist:
+    - name: "Dallas Acid"
+    - shows:
+        - show:
+            - date: June 7-14
+              location: "@ Monkey Town - Los Angeles, CA"
+
   - artist:
       - name: "Kyle Forester"
       - shows:
           - show:
+              - date: Tuesday June 14th
+                location: "@ Wunderbar - Rotterdamn, Netherlands"
+          - show:
+              - date: Wednesday June 15th
+                location: "@ Subbacultcha! - Amsterdam, Netherlands"
+          - show:
+              - date: Saturday May 28th
+                support: "Kyle Forester, Fred Thomas"
+                location: "@ Cake Shop - Manhattan, NY"
+          - show:
               - date: Wednesday May 18th
                 support: "George Sand, Bill Botting, Pale Lights"
                 location: "@ Alphaville - Brooklyn, NY"
+          - show:
               - date: Saturday Feb 13th
                 support: "The Hairs"
                 location: "@ Cake Shop - Manattan, NYC"
@@ -83,6 +144,10 @@ past_events:
 
       - name: "Tim Kuhl"
       - shows:
+          - show:
+              - date: Wednesday May 25th
+                support: "Clint Newsom (w/ Kyle Forester)"
+                location: "@ Manhattan Inn - Brooklyn, NY"
           - show:
               - date: Sunday, Feb 3rd
                 support: "Christian Gibbs"

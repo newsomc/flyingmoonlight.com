@@ -35,6 +35,7 @@ page "links.html.erb", :layout => false
 page "contact.html.erb", :layout => false
 page "preorder.html.erb", :layout => false
 page "dallas-acid-preorder.html.erb", :layout => false
+page "erin-durant-preorder.html.erb", :layout => false
 
 # Assumes the file source/about/template.html.erb exists
 ["dallas-acid", "muyassar-kurdi","ed-askew", "tim-kuhl",

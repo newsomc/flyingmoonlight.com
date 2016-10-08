@@ -455,3 +455,22 @@ body > .container {
     padding: 0;
 }
 
+iframe {
+    padding-left: 200px;
+}
+
+/* Erin Durant page */
+
+.erin-artist-name {
+    font-family: 'Prata', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.erin-release-title {
+    text-align: center;
+}
+
+.erin-tour-dates {
+    text-align: center;
+}

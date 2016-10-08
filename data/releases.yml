@@ -1,4 +1,40 @@
 - release:
+    artist_name: "Dallas Acid"
+    release_key: "fm007"
+    title: Original Soundtrack
+    image_sm: "img/releases/fm007/Original-Soundtrack-sm.jpg"
+    image_lg: "img/releases/fm007/Original-Soundtrack.jpg"
+    image_alt: Original Soundtrack
+    description: "Deluxe double LP out July 2016."
+    description_sm: ""
+    tracks:
+      - track:
+          title: "Punic Wars"
+          time: "15:29"
+      - track:
+          title: "Dreams"
+          time: "15:36"
+      - track:
+          title: "Indiscreet Musik"
+          time: "17:17"
+      - track:
+          title: "Kepler"
+          time: "18:04"
+    formats:
+      - format:
+          description: "Original Soundtrack - 2xLP"
+          value: "2xLP"
+          price: "$28.00"
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Original Soundtrack"
+      amount: "28.00"
+      tax: "4.5"
+      shipping: "3.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com"
+
+- release:
     artist_name: "Kyle Forester"
     release_key: "fm006"
     title: "s/t"
