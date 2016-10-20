@@ -6,16 +6,17 @@ Erin Durant is a New Orleans raised, Brooklyn based songwriter and musician. Her
   single_image: true
   image_vert: "img/artists/erin-durant/Erin-Durant.jpg"
   image_max_width: "720px"
-  featured_video: ""
+  featured_video: "<iframe width='720' height='315' src='https://www.youtube.com/embed/iU75QX7ZpLo' frameborder='0' allowfullscreen></iframe>"
   release:
-    promo_headline: "\"Blueberry Mountain\" out Nov 3rd. On tour through Oct 2016."
+    promo_headline: "\"Blueberry Mountain\" out Nov 1st. On tour through Oct 2016."
     artist_name: "Erin Durant"
     release_key: "fm008"
     title: Blueberry Mountain
     image_sm: "img/releases/fm008/Blueberry-Mountain-sm.jpg"
     image_lg: "img/releases/fm008/Blueberry-Mountain.jpg"
     image_alt: ""
-    description: ""
+    description: "<p>\"Then she took her seat at the piano. Wood-warmed notes flowed out over the room. She sang, a high clear voice with curls in it.\" - <strong>The New York Times</strong></p>
+                  <p>\"Her voice is both dazzling and sweet and it carries you off in its loving arms.\" - <strong>Kath Bloom</strong></p>"
     description_sm: ""
     tracks:
       - track:
@@ -71,7 +72,7 @@ dallas-acid:
   single_image: true
   image_vert: "img/artists/dallas-acid/Dallas-Acid.jpg"
   image_max_width: "720px"
-  featured_video: "<iframe src='https://player.vimeo.com/video/68015129' width='500' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+  featured_video: "<iframe src='https://player.vimeo.com/video/68015129' width='600' height='281' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
   release:
     artist_name: "Dallas Acid"
     release_key: "fm007"

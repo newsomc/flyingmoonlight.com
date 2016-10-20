@@ -2,16 +2,4 @@
     <h2>Shows</h2>
     <hr>
     <%= partial(:upcoming_shows, :locals => {:tag => artist_name}) %>
-    <h2>Audio</h2>
-    <hr>
-    <% data.featured_audio.bandcamp_embeds.each do |entry| %>
-    <ul class="list-group list-unstyled right-bar-audio">
-        <% entry.artist.each do |ent| %>
-        <p><%= ent.name %></p>
-        <% ent.tracks.to_a.sample(2).each do |track| %>
-        <li><%= track %></li>
-        <% end %>
-        <% end %>
-    </ul>
-    <% end %>
 </div>

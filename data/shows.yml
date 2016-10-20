@@ -1,36 +1,4 @@
 upcoming_events:
-  - date: Saturday, October 8 
-    artists: "Erin Durant & Okolona"
-    location: Denver, CO @ House show
-    tag: 'erin-durant'
-  - date: Monday, October 10
-    artists: "Erin Durant & Okolona"
-    location: Black Rock Desert, Nevada @ Salt Flats Campout    
-    tag: 'erin-durant'
-  - date: Wednesday, October 12
-    artists: Erin Durant, Okolona, Kyp Malone
-    location: Oakland, CA @ Starline Social Club
-    tag: 'erin-durant'
-  - date: Friday, October 14
-    artists: Erin Durant, Okolona, Kyp Malone
-    location: Big Sur, CA @ Henry Miller Library*
-    tag: 'erin-durant'
-  - date: Saturday, October 15
-    artists: Erin Druatn, Okolona, Kyp Malone, Village of Spaces
-    location: Santa Cruz, CA @ Dan & Amy\'s
-    tag: 'erin-durant'
-  - date: Sunday, October 16
-    artists: Erin Durant, Okolona, Kyp Malone
-    location: Nevada City, CA @ Nail Factory
-    tag: 'erin-durant'
-  - date: Monday, October 17
-    artists: Erin Druant, Okolona
-    location: Los Angeles, CA @ Honey Power
-    tag: 'erin-durant'
-  - date: Tuesday, October 18
-    artists: Erin Durant, Okolona
-    location: Topanga, CA @  131 Topanga
-    tag: 'erin-durant'
   - date: Friday, October 21
     artists: Erin Durant, Okolona
     location: Vail, AZ @ Geneva\'s
@@ -63,6 +31,38 @@ past_events:
           - show:
               - date: Friday, October 7
               - location: Louisville, KY @ ARTxFM radio
+          - show:
+              - date: Saturday, October 8 
+                support: "Okolona"
+                location: Denver, CO @ House show
+          - show:
+              - date: Monday, October 10
+                support: "Okolona"
+                location: Black Rock Desert, Nevada @ Salt Flats Campout
+          - show:
+              - date: Wednesday, October 12
+                support: Okolona, Kyp Malone
+                location: Oakland, CA @ Starline Social Club
+          - show:
+              - date: Friday, October 14
+                support: Okolona, Kyp Malone
+                location: Big Sur, CA @ Henry Miller Library
+          - show:
+              - date: Saturday, October 15
+                support: Okolona, Kyp Malone, Village of Spaces
+                location: Santa Cruz, CA @ Dan & Amy\'s
+          - show:
+              - date: Sunday, October 16
+                support: Okolona, Kyp Malone
+                location: Nevada City, CA @ Nail Factory
+          - show:
+              - date: Monday, October 17
+                support: Okolona, Kyp Malone
+                location: Los Angeles, CA @ Honey Power
+          - show:
+              - date: Tuesday, October 18
+                support: Okolona, Kyp Malone
+                location: Topanga, CA @  131 Topanga
               
   - artist:
     - name: "Dallas Acid"

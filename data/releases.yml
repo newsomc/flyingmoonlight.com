@@ -1,4 +1,60 @@
 - release:
+    promo_headline: "\"Blueberry Mountain\" out Nov 1st. On tour through Oct 2016."
+    artist_name: "Erin Durant"
+    release_key: "fm008"
+    title: Blueberry Mountain
+    image_sm: "img/releases/fm008/Blueberry-Mountain-sm.jpg"
+    image_lg: "img/releases/fm008/Blueberry-Mountain.jpg"
+    image_alt: ""
+    description: ""
+    description_sm: ""
+    tracks:
+      - track:
+          title: "Blueberry Mountain"
+          time: "03:07"
+      - track:
+          title: "Settle Down"
+          time: "03:56"
+      - track:
+          title: "Health To Your Mother"
+          time: "02:52"
+      - track:
+          title: "Old Soul"
+          time: "03:14"
+      - track:
+          title: "Negativity Blues"
+          time: "03:14"
+      - track:
+          title: "You Don't Know Me"
+          time: "03:12"
+      - track:
+          title: "Rolling Through"
+          time: "02:11"
+      - track:
+          title: "Long Distance"
+          time: "03:26"
+      - track:
+          title: "Louise"
+          time: "03:17"
+      - track:
+          title: "Downtown"
+          time: "02:10"
+    formats:
+      - format:
+          description: "Blueberry Mountain"
+          value: "Cassette"
+          price: "$7.00"
+          
+    paypal_button:
+      type: "buynow"
+      host: "http://flyingmoonlight.com"
+      purchase_name: "Blueberry Mountain"
+      amount: "7.00"
+      tax: "0.00"
+      shipping: "3.00"
+      destination: "https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=flyingmoonlightrecords@gmail.com"
+
+- release:
     artist_name: "Dallas Acid"
     release_key: "fm007"
     title: Original Soundtrack

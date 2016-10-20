@@ -73,20 +73,6 @@ title: Flying Moonlight Records
                     <%= partial(:upcoming_shows, :locals => {:tag => nil})  %>
                 </div>
                 <div>
-                    <h2>Audio</h2>
-                    <hr>
-                    <% data.featured_audio.bandcamp_embeds.each do |entry| %>
-                    <ul class="list-group list-unstyled right-bar-audio">
-                        <% entry.artist.each do |ent| %>
-                        <p><%= ent.name %></p>
-                        <% ent.tracks.to_a.sample(2).each do |track| %>
-                        <li><%= track %></li>
-                        <% end %>
-                        <% end %>
-                    </ul>
-                    <% end %>
-                </div>
-                <div>
                     <a class="twitter-timeline" href="https://twitter.com/FlyingMoonlite" data-widget-id="612384026146566144">Tweets by @FlyingMoonlite</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
