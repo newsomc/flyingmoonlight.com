@@ -1,3 +1,8 @@
+<% listed = data.shows.upcoming_events %>
+<% if listed %>
+<h2>Shows</h2>
+<hr>
+
 <div>
 <ul class="list-group list-unstyled right-bar-shows">
     <% if tag != nil %>
@@ -20,3 +25,5 @@
   <% end %>
 </ul>
 </div>
+
+<% end %>

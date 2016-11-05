@@ -15,23 +15,26 @@ title: Flying Moonlight Records
                     <div class="row">
                         <div class="col-md-4">
                             <% if artist.image_vert_width %>
-                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of ' + artist.name, :style => 'height:' + artist.image_vert_width %>
+                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Image of ' + artist.name, :style => 'height:' + artist.image_vert_width %>
                             <% elsif artist.image_vert_pad_top %>
-                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of' + artist.name,  :style => 'padding-top:' + artist.image_vert_pad_top %>
+                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Image of' + artist.name,  :style => 'padding-top:' + artist.image_vert_pad_top %>
                             <% elsif artist.image_max_width %>
-                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Vertical image of' + artist.name,  :style => 'max-width:' + artist.image_max_width %>
-                            <% else %>
-                              <%= image_tag artist.image_vert, :class=> 'artist-image-left', :alt => 'Vertical image of' + artist.name %>
-                            <% end %>
+                              <%= image_tag artist.image_vert, :class => 'artist-image-left', :alt => 'Image of' + artist.name,  :style => 'max-width:' + artist.image_max_width %>
+                              <% else %>
+                              <%= image_tag artist.image_vert, :class=> 'artist-image-left', :alt => 'Image of' + artist.name %>
+                            <% end %>                              
                         </div>
                         <% if not artist.single_image %>
                           <div class="col-md-8">
                             <%= image_tag artist.image_horz_1, :class => 'artist-image-right', :alt => 'Horizontal image of' + artist.name %>
                             <%= image_tag artist.image_horz_2, :class => 'artist-image-right', :alt => 'Horizontal image of' + artist.name %>
                           </div>
-                        <% end %>
+                          <% end %>
                     </div>
                 </div>
+                <% if artist.image_credit %>
+                  <i>Photo by <%= artist.image_credit %> </i>
+                <% end %>
                 <div class="artist-bio">
                     <%= artist.bio.main %>
                 </div>

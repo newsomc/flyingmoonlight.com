@@ -1,33 +1,33 @@
 upcoming_events:
-  - date: Friday, October 21
-    artists: Erin Durant, Okolona
-    location: Vail, AZ @ Geneva\'s
-    tag: 'erin-durant'
-  - date: Sunday, October 23
-    artists: Erin Durant, Okolona
-    location: Marfa, TX @ Copa Cobanana
-    tag: 'erin-durant'
-  - date: Tuesday, October 25
-    artists: Erin Durant, Okolona, Longriver
-    location: Austin, TX @ Hackberry House
-    tag: 'erin-durant'
-  - date: Tuesday, October 25
-    artists: Grey McMurray, Faten Kanaan
-    location: Brooklyn, NY @ Union Pool
-    tag: 'erin-durant'
-  - date: Friday, October 28
-    artists: Erin Durant, Okolona, Kyp Malone
-    location: New Orleans, LA @ Music Box
-    tag: 'erin-durant'
-  - date: Tuesday, November 1
-    artists: Erin Durant
-    location: Brooklyn, NY @ Union Pool / Record Release show
-    tag: 'erin-durant'
+  # - date: Tuesday, November 1
+  #   artists: Erin Durant
+  #   location: Brooklyn, NY @ Union Pool / Record Release show
+  #   tag: 'erin-durant'
   
 past_events:
   - artist:
       - name: "Erin Durant"
       - shows:
+          - show:
+              - date: Tuesday, November 1
+                artists: Erin Durant
+                location: Brooklyn, NY @ Union Pool / Record Release show
+          - show:
+              - date: Friday, October 21
+                support: Okolona
+                location: Vail, AZ @ Geneva\'s
+          - show:
+              - date: Sunday, October 23
+                support: Okolona
+                location: Marfa, TX @ Copa Cobanana
+          - show:
+              - date: Tuesday, October 25
+                artists: Erin Durant, Okolona, Longriver
+                location: Austin, TX @ Hackberry House
+          - show: 
+              - date: Friday, October 28
+                support: Okolona, Kyp Malone
+                location: New Orleans, LA @ Music Box
           - show:
               - date: Friday, October 7
               - location: Louisville, KY @ ARTxFM radio
@@ -144,6 +144,10 @@ past_events:
 
       - name: "Tim Kuhl"
       - shows:
+          - show:
+              - date: Tuesday, October 25
+                suppprt: Grey McMurray, Faten Kanaan
+                location: Brooklyn, NY @ Union Pool
           - show:
               - date: Wednesday May 25th
                 support: "Clint Newsom (w/ Kyle Forester)"
